@@ -6,7 +6,7 @@
 <title>Guia de Conteúdo · MPS Alimentos</title>
 <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
 <meta name="robots" content="noindex">
-<meta name="description" content="Guia de conteúdo e comunicação para as redes do MPS Alimentos — persona, linha editorial, dores, bio, manual de postagem e sugestões de posts.">
+<meta name="description" content="Guia de conteúdo e comunicação para as redes do MPS Alimentos: posicionamento, personas, dores, linha editorial, exemplos de post, bio e manual de postagem.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Petrona:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
@@ -14,50 +14,51 @@
   :root{
     --cream:#f6efe4;--cream-2:#efe6d6;--paper:#fdfaf4;--ink:#2c2016;--muted:#6f5e49;
     --gold:#a9772f;--gold-deep:#8a5e1f;--gold-2:#c69a54;--choc:#4a2f1c;--choc-deep:#3a2415;--line:#e4d8c3;
+    --sim:#3f7d6a;--nao:#b8623f;
     --p1:#8a5e1f;--p2:#3f7d6a;--p3:#b5683a;--p4:#7a5aa0;--p5:#b58a2a;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
   body{background:var(--cream);color:var(--ink);font-family:'Hanken Grotesk',system-ui,sans-serif;line-height:1.62;-webkit-font-smoothing:antialiased}
   .serif{font-family:'Petrona',Georgia,serif}
-  .wrap{max-width:900px;margin:0 auto;padding:0 24px}
+  .wrap{max-width:940px;margin:0 auto;padding:0 24px}
   em{font-style:italic;color:var(--choc)}
   strong{font-weight:700}
 
   /* Cover */
-  .cover{background:var(--choc);color:var(--cream);padding:64px 0 56px;position:relative;overflow:hidden}
-  .cover::after{content:"";position:absolute;inset:0;background:radial-gradient(60% 90% at 85% 10%,rgba(198,154,84,.22),transparent 60%)}
-  .cover .wrap{position:relative;z-index:1}
+  .cover{background:var(--choc);color:var(--cream);position:relative;overflow:hidden}
+  .cover .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.28}
+  .cover .veil{position:absolute;inset:0;background:linear-gradient(90deg,rgba(58,36,21,.92),rgba(58,36,21,.62))}
+  .cover .wrap{position:relative;z-index:2;padding:66px 24px 56px}
   .brandline{display:inline-flex;align-items:center;gap:12px;font-family:'Petrona',serif;font-weight:600;font-size:1.2rem;letter-spacing:.02em}
   .brandline img{height:40px;width:auto;filter:brightness(0) invert(1);opacity:.95}
   .brandline span{color:var(--gold-2)}
   .cover h1{font-family:'Petrona',serif;font-weight:600;font-size:clamp(2.1rem,5.6vw,3.4rem);line-height:1.06;letter-spacing:-.02em;margin:26px 0 14px;color:var(--cream)}
-  .cover .sub{color:#e6d7bf;font-size:1.12rem;max-width:56ch}
+  .cover .sub{color:#e9dcc6;font-size:1.12rem;max-width:56ch}
   .cover .kicker{font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-2);font-weight:600}
 
-  /* Nav */
   nav.toc{background:var(--choc-deep);position:sticky;top:0;z-index:20;border-bottom:1px solid rgba(246,239,228,.12)}
   nav.toc .wrap{display:flex;gap:6px;overflow-x:auto;padding-top:10px;padding-bottom:10px;scrollbar-width:none}
   nav.toc .wrap::-webkit-scrollbar{display:none}
   nav.toc a{white-space:nowrap;color:#d9c8ac;text-decoration:none;font-size:.82rem;font-weight:600;padding:7px 13px;border-radius:20px;transition:background .2s,color .2s}
   nav.toc a:hover{background:rgba(198,154,84,.18);color:var(--cream)}
 
-  main{padding:20px 0 70px}
-  section{padding:40px 0;border-bottom:1px solid var(--line)}
+  main{padding:16px 0 70px}
+  section{padding:42px 0;border-bottom:1px solid var(--line)}
   section:last-child{border-bottom:none}
   .num{display:inline-block;font-family:'Petrona',serif;font-weight:600;color:var(--gold-2);font-size:.95rem;letter-spacing:.04em;margin-bottom:6px}
   h2.sec{font-family:'Petrona',serif;font-weight:600;font-size:clamp(1.7rem,4vw,2.5rem);letter-spacing:-.02em;line-height:1.1;margin-bottom:8px}
-  .lead{color:var(--muted);font-size:1.08rem;margin-bottom:22px;max-width:64ch}
-  p{margin:0 0 14px;max-width:68ch}
+  .lead{color:var(--muted);font-size:1.08rem;margin-bottom:22px;max-width:66ch}
+  p{margin:0 0 14px;max-width:70ch}
   h3{font-family:'Petrona',serif;font-weight:600;font-size:1.3rem;margin:24px 0 8px;letter-spacing:-.01em}
   ul,ol{margin:0 0 16px;padding-left:22px}
-  li{margin-bottom:7px;max-width:66ch}
+  li{margin-bottom:7px;max-width:68ch}
 
   .callout{background:var(--choc);color:var(--cream);border-radius:16px;padding:24px 28px;margin:22px 0}
   .callout .big{font-family:'Petrona',serif;font-style:italic;font-size:clamp(1.3rem,3vw,1.7rem);line-height:1.35;color:var(--cream)}
   .callout .big b{font-style:normal;color:var(--gold-2)}
-  .callout p{color:#e6d7bf;margin:10px 0 0}
-  .note{background:#fbf3e4;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:10px;padding:15px 18px;margin:18px 0;font-size:.98rem;color:var(--ink)}
+  .callout p{color:#e9dcc6;margin:10px 0 0}
+  .note{background:#fbf3e4;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:10px;padding:15px 18px;margin:18px 0;font-size:.98rem}
   .note strong{color:var(--gold-deep)}
 
   table{width:100%;border-collapse:collapse;margin:18px 0;font-size:.95rem;background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden}
@@ -66,311 +67,434 @@
   tr:last-child td{border-bottom:none}
   .twrap{overflow-x:auto}
 
-  .cards{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:20px 0}
-  .card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:22px 24px}
-  .card.full{grid-column:1/-1}
-  .card h3{margin-top:0}
-  .tag{display:inline-block;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;padding:3px 10px;border-radius:20px;margin-bottom:10px}
-  .tag.a{background:#efe6d6;color:var(--gold-deep)}
-  .tag.b{background:#e7efe9;color:var(--p2)}
+  .band{width:100%;height:200px;object-fit:cover;border-radius:16px;display:block;margin:6px 0 4px;box-shadow:0 22px 44px -30px rgba(74,47,28,.5)}
 
-  .pillar{border-left:5px solid var(--pc,#8a5e1f);background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:14px}
-  .pillar h3{margin:0 0 4px;font-size:1.18rem}
-  .pillar .pct{float:right;font-weight:700;color:var(--muted);font-size:.9rem}
-  .pillar .goal{color:var(--muted);font-size:.95rem;margin:6px 0 0}
+  /* Persona ficha */
+  .persona{margin:26px 0 8px}
+  .p-head{margin-bottom:16px}
+  .p-eyebrow{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-deep);font-weight:700}
+  .p-head h3{font-family:'Petrona',serif;font-size:2rem;margin:6px 0 2px;color:var(--ink)}
+  .p-role{color:var(--muted);font-weight:600}
+  .cols{display:grid;grid-template-columns:320px 1fr;gap:22px;align-items:start}
+  .pcard{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 18px 40px -28px rgba(74,47,28,.35)}
+  .pcard .img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+  .facts{padding:18px 20px}
+  .facts h4{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;margin-bottom:12px}
+  .fact{font-size:.92rem;margin-bottom:9px}
+  .fact b{color:var(--choc)}
+  .blocks .qlead{font-family:'Petrona',serif;font-style:italic;font-size:1.25rem;line-height:1.35;color:var(--choc);padding-left:18px;border-left:4px solid var(--gold);margin-bottom:16px}
+  .block{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:15px 18px;margin-bottom:12px}
+  .block h4{font-family:'Petrona',serif;font-size:1.08rem;margin-bottom:4px;color:var(--ink)}
+  .block p{margin:0;font-size:.96rem;color:var(--muted)}
+  .block.tension{background:linear-gradient(135deg,#fff,#f6e7dd);border-color:var(--nao)}
+  .block.tension h4{color:var(--nao)}
+  .block.want{background:linear-gradient(135deg,#eef5f0,#fff);border-color:var(--sim)}
+  .block.want h4{color:var(--sim)}
+  .quotes{display:flex;flex-direction:column;gap:8px;margin-top:6px}
+  .q{background:#fff;border:1px solid var(--line);border-radius:10px;padding:9px 13px;font-style:italic;color:var(--choc);font-size:.93rem}
+  .voz{margin-top:16px;background:var(--choc);border-radius:18px;padding:24px 26px;color:var(--cream)}
+  .voz h4{font-family:'Petrona',serif;font-size:1.3rem;margin-bottom:14px;color:var(--cream)}
+  .voz-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  .voz-col h5{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px;font-weight:700}
+  .voz-col.sim h5{color:#7fd6a8}
+  .voz-col.nao h5{color:#e6a98a}
+  .vi{font-size:.92rem;line-height:1.5;margin-bottom:9px;padding-left:22px;position:relative;color:#ecdfc9}
+  .vi:before{position:absolute;left:0;top:0;font-weight:700}
+  .voz-col.sim .vi:before{content:'✓';color:#7fd6a8}
+  .voz-col.nao .vi:before{content:'✕';color:#e6a98a}
 
-  .bio{background:var(--choc);color:var(--cream);border-radius:14px;padding:18px 20px;margin:12px 0;font-family:'Hanken Grotesk',monospace;white-space:pre-wrap;font-size:.98rem;line-height:1.5}
+  /* Pillars */
+  .pillar{border-left:5px solid var(--pc,#8a5e1f);background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin-bottom:12px}
+  .pillar h3{margin:0 0 3px;font-size:1.15rem}
+  .pillar .pct{float:right;font-weight:700;color:var(--muted);font-size:.88rem}
+  .pillar p{margin:2px 0 0;font-size:.96rem}
+  .pillar .img{color:var(--gold-deep);font-size:.9rem;margin-top:6px}
+
+  /* Post simulation */
+  .simhead{background:var(--gold);color:#2a1a0d;border-radius:14px;padding:16px 20px;margin:6px 0 20px;font-weight:600}
+  .anatomy{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 26px}
+  .achip{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:7px 14px;font-size:.86rem;font-weight:600}
+  .achip b{color:var(--gold-deep)}
+  .sim{display:grid;grid-template-columns:300px 1fr;gap:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-bottom:20px;box-shadow:0 20px 44px -30px rgba(74,47,28,.4)}
+  .sim .simg{position:relative}
+  .sim .simg img{width:100%;height:100%;min-height:240px;object-fit:cover;display:block}
+  .sim .simg .fmt{position:absolute;top:10px;left:10px;background:rgba(42,26,13,.82);color:var(--cream);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;padding:5px 10px;border-radius:20px}
+  .sim .scap{padding:18px 20px}
+  .scap .lbl{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;margin-bottom:10px;display:block}
+  .scap .g{font-family:'Petrona',serif;font-style:italic;font-size:1.12rem;color:var(--choc);margin-bottom:10px;line-height:1.35}
+  .scap .body{font-size:.96rem;color:var(--ink);margin-bottom:10px;white-space:pre-line}
+  .scap .c{font-weight:700;color:var(--gold-deep);margin-bottom:8px}
+  .scap .h{font-size:.85rem;color:var(--muted)}
+  .legendkey{font-size:.85rem;color:var(--muted);margin-top:2px}
+  .legendkey b{color:var(--choc)}
+
+  .bio{background:var(--choc);color:var(--cream);border-radius:14px;padding:18px 20px;margin:12px 0;white-space:pre-wrap;font-size:.98rem;line-height:1.55}
   .bio .lbl{display:block;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-2);margin-bottom:8px;font-weight:700}
 
-  .post{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:14px}
-  .post .phd{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px}
-  .post h3{margin:0;font-size:1.12rem}
-  .post .fmt{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;white-space:nowrap}
-  .post .hook{font-family:'Petrona',serif;font-style:italic;color:var(--choc);font-size:1.05rem;margin:4px 0}
-  .post .cta{font-size:.92rem;color:var(--muted);margin-top:6px}
-  .post .cta b{color:var(--gold-deep)}
-
-  .chk{list-style:none;padding:0}
-  .chk li{padding-left:30px;position:relative;margin-bottom:10px}
-  .chk li::before{content:"☐";position:absolute;left:0;top:-1px;color:var(--gold);font-size:1.1rem}
-
-  .final{background:var(--choc);color:var(--cream);text-align:center;padding:44px 24px;border-radius:18px;margin-top:30px}
+  .final{background:var(--choc);color:var(--cream);text-align:center;padding:44px 24px;border-radius:18px;margin-top:28px}
   .final .big{font-family:'Petrona',serif;font-style:italic;font-size:clamp(1.3rem,3.2vw,1.8rem);line-height:1.4;color:var(--cream)}
   .final .big b{font-style:normal;color:var(--gold-2)}
   footer{color:var(--muted);font-size:.85rem;padding:26px 0 60px;text-align:center}
+  code{background:#efe6d6;padding:2px 6px;border-radius:5px;font-size:.9em}
 
-  @media(max-width:680px){
-    .cards{grid-template-columns:1fr}
+  @media(max-width:720px){
+    .cols{grid-template-columns:1fr}
+    .voz-grid{grid-template-columns:1fr}
+    .sim{grid-template-columns:1fr}
+    .sim .simg img{min-height:220px}
   }
 </style>
 </head>
 <body>
 
 <header class="cover">
+  <img class="bg" src="assets/hero.jpg" alt="">
+  <div class="veil"></div>
   <div class="wrap">
     <div class="brandline"><img src="assets/logo.svg" alt="">MPS <span>Alimentos</span></div>
     <div class="kicker" style="margin-top:22px">Guia de conteúdo e comunicação</div>
     <h1>Como o MPS deve falar com a<br>confeitaria do Brasil</h1>
-    <p class="sub">Persona, linha editorial, mapa de dores, bio, manual de postagem e ideias de post. Feito com pesquisa de mercado e leitura real dos perfis dos clientes.</p>
+    <p class="sub">Posicionamento, personas, mapa de dores, linha editorial, exemplos prontos de post, bio e manual de postagem. Feito com pesquisa de mercado e leitura direta dos perfis dos clientes.</p>
   </div>
 </header>
 
 <nav class="toc">
   <div class="wrap">
-    <a href="#virada">1· A virada</a>
-    <a href="#persona">2· Persona</a>
+    <a href="#ideia">1· A ideia</a>
+    <a href="#personas">2· Personas</a>
     <a href="#dores">3· Dores</a>
-    <a href="#editorial">4· Linha editorial</a>
-    <a href="#bio">5· Bio</a>
-    <a href="#manual">6· Como postar</a>
-    <a href="#posts">7· Posts</a>
-    <a href="#erros">8· Erros</a>
-    <a href="#check">9· Checklist</a>
+    <a href="#pilares">4· Linha editorial</a>
+    <a href="#pratica">5· Post na prática</a>
+    <a href="#bio">6· Bio</a>
+    <a href="#manual">7· Manual</a>
+    <a href="#ideias">8· Ideias de post</a>
   </div>
 </nav>
 
 <main>
 
 <!-- 1 -->
-<section id="virada"><div class="wrap">
+<section id="ideia"><div class="wrap">
   <span class="num">01</span>
-  <h2 class="sec">A virada de posicionamento</h2>
-  <p class="lead">A ideia que sustenta tudo. As marcas que o MPS admira vendem chocolate. O MPS precisa vender outra coisa.</p>
-  <p>As três referências vendem <strong>chocolate</strong>: a <strong>Dobla</strong> vende status e acabamento; a <strong>Barry Callebaut</strong> vende escala industrial; a <strong>TopCau</strong> vende parceria e preço de fábrica. Se o MPS (pequeno, nacional, que fala direto com a confeiteira) imitar o tom das grandes, vira uma cópia fraca e distante.</p>
+  <h2 class="sec">A grande ideia</h2>
+  <p class="lead">O posicionamento que sustenta toda a comunicação.</p>
+  <p>As três marcas de referência (Dobla, Barry Callebaut e TopCau) são gigantes que falam com a indústria e com o chef de alto padrão. Elas vendem <strong>chocolate</strong>: acabamento, escala e tradição.</p>
+  <p>O MPS tem uma vantagem que nenhuma delas consegue ter: <strong>proximidade</strong>. Em vez de disputar o mesmo tom institucional, o MPS ganha pela relação direta com a confeiteira, falando a língua de quem produz no dia a dia.</p>
   <div class="callout">
-    <div class="big">O MPS não vende chocolate. O MPS vende <b>o sucesso da confeiteira.</b></div>
-    <p>A casca de trufa é só o meio. O que ela compra é tempo, margem e tranquilidade pra vender mais sem se matar na produção. Nenhuma marca grande consegue ocupar esse lugar. Esse é o território do MPS.</p>
+    <div class="big">O MPS não vende chocolate. O MPS vende <b>o resultado da confeiteira.</b></div>
+    <p>A casca de trufa é o meio. O que a cliente compra é tempo, margem e tranquilidade para vender mais sem se sobrecarregar na produção. Esse é um território que as marcas grandes não ocupam, porque estão distantes da rotina dela.</p>
   </div>
-  <p><strong>Frase estrela-guia da comunicação:</strong></p>
+  <p><strong>Frase que guia a comunicação:</strong></p>
   <p class="serif" style="font-size:1.3rem;font-style:italic;color:var(--choc)">"Você recheia, fecha e vende. A casca pronta é com a gente."</p>
 </div></section>
 
 <!-- 2 -->
-<section id="persona"><div class="wrap">
+<section id="personas"><div class="wrap">
   <span class="num">02</span>
-  <h2 class="sec">Persona — pra quem o MPS fala</h2>
-  <p class="lead">Refeita com os 6 perfis abertos de verdade no Instagram. Todos de Curitiba/PR, festa e encomenda premium, marcas grandes e maduras.</p>
-  <div class="note">A maioria é liderada por mulheres, <strong>mas não todas</strong> (a Délices de Sucre é do Chef Johnlee, homem). O fio condutor não é gênero: é o <strong>posicionamento fino + o rosto de chef à frente da marca</strong>.</div>
+  <h2 class="sec">Personas</h2>
+  <p class="lead">Construídas com a leitura direta dos perfis de clientes (todos de Curitiba e região, de confeitaria fina e encomenda) e a pesquisa de mercado. Representam comportamentos, não pessoas específicas.</p>
+  <div class="note">A maioria desse público é de mulheres, mas não exclusivamente. Um dos perfis analisados é liderado por um chef homem. Por isso o guia trata "confeiteira" como papel, sem excluir ninguém. Cada ficha traz também <strong>como se comunicar com aquela persona</strong>.</div>
 
-  <div class="twrap"><table>
-    <tr><th>Perfil</th><th>Seguidores</th><th>Foco</th></tr>
-    <tr><td>@delicesdesucre</td><td>~190 mil</td><td>Pâtisserie, 2 lojas, Chef Johnlee · coleções sazonais</td></tr>
-    <tr><td>@swdocesexclusivos</td><td>~53 mil</td><td>Casamento, 15 anos, corporativo</td></tr>
-    <tr><td>@cheiadegracapatisserie</td><td>~45 mil</td><td>Café + confeitaria (Batel), macarons</td></tr>
-    <tr><td>@madocesespeciais</td><td>~40 mil</td><td>Mariana Abouhamad · eventos e encomendas</td></tr>
-    <tr><td>@jennygourmets</td><td>~26 mil</td><td>Bolos de casamento (8 anos premiada)</td></tr>
-    <tr><td>@confeitariaberries</td><td>~23 mil</td><td>Bolos e doces finos decorados</td></tr>
-  </table></div>
-
-  <div class="cards">
-    <div class="card"><span class="tag a">Nível A</span><h3>Os nomes acima</h3><p style="margin:0">Confeitarias premium, estabelecidas, exigentes no acabamento. Cliente <strong>aspiracional</strong>: compra no volume das festas e nos picos, mas pode preferir moldar a própria casca. Ganhar uma dá vitrine e boca a boca forte em Curitiba.</p></div>
-    <div class="card"><span class="tag b">Nível B</span><h3>A base que converte</h3><p style="margin:0">A confeiteira menor que trabalha de casa (perfil Sebrae: 31-51 anos, informal/MEI, margem apertada). Sente mais a dor de "acessível + tempo" e decide rápido. <strong>O volume de venda provavelmente vem daqui.</strong> E a bio do MPS diz "confeitaria e padarias" — padaria também entra.</p></div>
+  <!-- Persona 1 -->
+  <div class="persona">
+    <div class="p-head">
+      <span class="p-eyebrow">Persona 1</span>
+      <h3 class="serif">Carol, 38</h3>
+      <div class="p-role">A confeiteira que vive de encomenda</div>
+    </div>
+    <div class="cols">
+      <div>
+        <div class="pcard">
+          <img class="img" src="assets/p1.jpg" alt="Mesa de doces de festa com trufas e brigadeiros">
+          <div class="facts">
+            <h4>Ficha rápida</h4>
+            <div class="fact"><b>Idade:</b> 35 a 45 anos</div>
+            <div class="fact"><b>Onde:</b> Curitiba e região</div>
+            <div class="fact"><b>Negócio:</b> doceria de festa, sozinha com ajudante ou equipe pequena</div>
+            <div class="fact"><b>Vende:</b> docinho fino e trufa para casamento, 15 anos e corporativo, em volume</div>
+            <div class="fact"><b>Compra:</b> por evento e por data, em quantidade</div>
+          </div>
+        </div>
+      </div>
+      <div class="blocks">
+        <p class="qlead">Ela não tem falta de pedido. Tem falta de tempo. Cada hora moldando casca é uma hora que ela não usa vendendo, criando ou descansando.</p>
+        <div class="block"><h4>A rotina</h4><p>Trabalha por picos. Uma semana mais calma e, na sequência, uma enxurrada de pedidos junto de uma data. Na véspera, o recurso mais escasso é tempo e mão de obra.</p></div>
+        <div class="block"><h4>O que ela valoriza</h4><p>1) Acabamento impecável (filtro número um). 2) Ganhar tempo e escala no pico. 3) Fornecimento que não falha. 4) Preço e margem. 5) Atendimento humano e rápido.</p></div>
+        <div class="block tension"><h4>A tensão (a dor)</h4><p>Moldar casca é demorado, técnico e sujeito a erro (temperagem, brilho, quebra). É exatamente o que a casca pronta resolve.</p></div>
+        <div class="block want"><h4>O que ela quer</h4><p>Entregar mais pedidos, mantendo o padrão, sem virar a noite.</p></div>
+        <div class="quotes">
+          <div class="q">"Na semana da festa, eu quase não durmo."</div>
+          <div class="q">"Se a trufa chega feia, quem fica mal na foto sou eu."</div>
+          <div class="q">"Preciso de fornecedor que não me deixe na mão na véspera."</div>
+        </div>
+      </div>
+    </div>
+    <div class="voz">
+      <h4>Como falar com a Carol</h4>
+      <div class="voz-grid">
+        <div class="voz-col sim">
+          <h5>Faça</h5>
+          <div class="vi">Fale de tempo e de volume: "menos horas moldando, mais pedidos entregues".</div>
+          <div class="vi">Mostre o produto pronto e bonito, e o resultado que ela alcança.</div>
+          <div class="vi">Prove que aguenta o transporte e o calor.</div>
+          <div class="vi">Trate como parceira de quem entende a correria dela.</div>
+        </div>
+        <div class="voz-col nao">
+          <h5>Evite</h5>
+          <div class="vi">Questionar o lado artesanal dela. A base é sua; a assinatura continua dela.</div>
+          <div class="vi">Linguagem de indústria (termos técnicos e corporativos).</div>
+          <div class="vi">Forçar a venda. O caminho é confiança.</div>
+          <div class="vi">Soar distante ou premium demais, como se ela não fizesse parte.</div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="cards">
-    <div class="card full"><span class="tag a">Persona 1 · principal</span>
-      <h3>"Carol, a confeiteira de festa"</h3>
-      <p><strong>Quem é:</strong> dona (quase sempre mulher, mas nem sempre), 30-50 anos, do próprio negócio de doces. Curitiba e região. Sozinha com ajudante ou equipe pequena. Vende docinho fino e trufa pra <strong>casamento, 15 anos, corporativo, mesa de festa</strong>, em volume (300 a 800 por evento).</p>
-      <p><strong>A dor real:</strong> moldar casca é etapa demorada, técnica e que dá erro (temperagem, brilho, quebra). A casca pronta resolve isso. Ela vive de <strong>pico</strong> — o recurso mais escasso é tempo na hora do aperto.</p>
-      <p><strong>Valoriza (nesta ordem):</strong> 1) acabamento impecável (filtro nº 1); 2) ganhar tempo/escala no pico; 3) fornecimento que não falha; 4) preço/margem; 5) atendimento humano e rápido no WhatsApp.</p>
-      <p style="margin:0"><strong>Objeções:</strong> medo de perder o "feito por mim" (resposta: a base é nossa, a assinatura é sua) · desconfia do nacional (resposta: amostra na mão) · caixa de 126 assusta (mostrar rendimento) · já tem fornecedor (só troca com prova).</p>
+  <!-- Persona 2 -->
+  <div class="persona" style="margin-top:40px">
+    <div class="p-head">
+      <span class="p-eyebrow">Persona 2</span>
+      <h3 class="serif">Renata, 42</h3>
+      <div class="p-role">A chef da vitrine premium <span style="font-weight:400;color:var(--muted)">(pode ser ele ou ela)</span></div>
     </div>
-    <div class="card full"><span class="tag b">Persona 2 · secundária</span>
-      <h3>"A chef de vitrine premium"</h3>
-      <p style="margin:0">Chef à frente de uma pâtisserie/loja física, marca autoral e mídia. Pode moldar a própria casca no dia a dia, mas <strong>compra pronta nos picos</strong> (Páscoa, Natal) por eficiência. Fale menos "atalho" e mais <strong>qualidade e conveniência no aperto</strong>, sem baixar o padrão. Escreva 80% do conteúdo pra Carol; a chef entra nas campanhas de data.</p>
+    <div class="cols">
+      <div>
+        <div class="pcard">
+          <img class="img" src="assets/p2.jpg" alt="Vitrine de patisserie fina com sobremesas e trufas">
+          <div class="facts">
+            <h4>Ficha rápida</h4>
+            <div class="fact"><b>Idade:</b> 40 a 50 anos</div>
+            <div class="fact"><b>Onde:</b> Curitiba, muitas vezes com loja física</div>
+            <div class="fact"><b>Negócio:</b> pâtisserie autoral, marca forte e presença de mídia</div>
+            <div class="fact"><b>Vende:</b> sobremesas finas, coleções sazonais, doces de vitrine e encomenda</div>
+            <div class="fact"><b>Compra:</b> produz a própria casca no dia a dia, compra pronta nos picos</div>
+          </div>
+        </div>
+      </div>
+      <div class="blocks">
+        <p class="qlead">Ela tem orgulho do que faz à mão. Não quer um atalho que baixe o padrão. Quer conveniência nos momentos em que o volume não deixa fazer tudo do zero.</p>
+        <div class="block"><h4>A rotina</h4><p>Opera loja e encomenda ao mesmo tempo. Nos picos sazonais, o volume estoura e a produção artesanal não dá conta sozinha.</p></div>
+        <div class="block"><h4>O que ela valoriza</h4><p>1) Qualidade e acabamento acima de tudo (a marca é o nome dela). 2) Conveniência no pico, sem abrir mão do padrão. 3) Estética e apresentação. 4) Constância de fornecimento.</p></div>
+        <div class="block tension"><h4>A tensão (a dor)</h4><p>No auge da temporada, o volume não cabe na produção artesanal. Ela precisa de ajuda pontual sem parecer que terceirizou a qualidade.</p></div>
+        <div class="block want"><h4>O que ela quer</h4><p>Manter o padrão premium mesmo dobrando o volume nas datas.</p></div>
+        <div class="quotes">
+          <div class="q">"Eu vendo o meu nome, não posso errar."</div>
+          <div class="q">"Na Páscoa, o gargalo é a produção."</div>
+        </div>
+      </div>
+    </div>
+    <div class="voz">
+      <h4>Como falar com a Renata</h4>
+      <div class="voz-grid">
+        <div class="voz-col sim">
+          <h5>Faça</h5>
+          <div class="vi">Fale de qualidade, acabamento e conveniência no pico.</div>
+          <div class="vi">Posicione a casca como base premium que economiza uma etapa, não como substituto do talento dela.</div>
+          <div class="vi">Mostre o resultado final impecável.</div>
+        </div>
+        <div class="voz-col nao">
+          <h5>Evite</h5>
+          <div class="vi">Vender como industrial barato. Ela recusa na hora.</div>
+          <div class="vi">Diminuir o trabalho dela.</div>
+          <div class="vi">Falar só de preço.</div>
+        </div>
+      </div>
     </div>
   </div>
+
+  <div class="note" style="margin-top:26px"><strong>Na prática:</strong> a maior parte do conteúdo conversa mais com a Carol, porque é ela quem compra em volume e com recorrência. A Renata entra com força nas campanhas de data comemorativa.</div>
 </div></section>
 
 <!-- 3 -->
 <section id="dores"><div class="wrap">
   <span class="num">03</span>
   <h2 class="sec">Mapa de dores</h2>
-  <p class="lead">O MPS listou 5 dores. A pesquisa mostrou quais são fortes de verdade — e revelou uma 6ª, a mais poderosa.</p>
+  <p class="lead">O MPS listou cinco dores. A pesquisa mostrou quais são mais fortes e revelou uma sexta, talvez a mais poderosa.</p>
   <div class="twrap"><table>
     <tr><th>Dor</th><th>Força</th><th>Como usar</th></tr>
-    <tr><td><strong>Ganho de tempo</strong><br><span style="color:var(--muted);font-size:.86rem">casca pronta = só rechear</span></td><td>⭐⭐⭐⭐⭐</td><td>Argumento carro-chefe. "Pare de moldar casca por casca." (Não estava na lista e é a mais forte.)</td></tr>
-    <tr><td><strong>Resistente ao calor</strong></td><td>⭐⭐⭐⭐⭐</td><td>Alívio de ansiedade: medo de entregar derretido e queimar a reputação. Teste no calor rende muito.</td></tr>
-    <tr><td><strong>Mais acessível</strong></td><td>⭐⭐⭐⭐⭐</td><td>Margem: "cabe no seu custo e você lucra mais". Timing perfeito (cacau/dólar caros).</td></tr>
-    <tr><td><strong>Produto nacional</strong></td><td>⭐⭐⭐⭐</td><td>O <strong>guarda-chuva/porquê</strong>: nacional = acessível + fornecimento estável. Não é benefício isolado.</td></tr>
-    <tr><td><strong>Pronta entrega</strong></td><td>⭐⭐⭐⭐</td><td>Dor <strong>sazonal</strong>: ativar forte antes dos picos. "Garanta com antecedência."</td></tr>
-    <tr><td><strong>Variedade de sabores</strong></td><td>⭐⭐⭐</td><td>Fraca como dor, <strong>forte como gancho de trend</strong> (pistache, matcha, edição limitada).</td></tr>
+    <tr><td><strong>Ganho de tempo</strong><br><span style="color:var(--muted);font-size:.86rem">casca pronta, só rechear</span></td><td>Muito alta</td><td>Argumento principal. "Chega de moldar casca por casca." Não estava na lista e é a mais forte.</td></tr>
+    <tr><td><strong>Resistente ao calor</strong></td><td>Muito alta</td><td>Alívio de uma preocupação real: o medo de entregar derretido. Teste no calor funciona muito bem.</td></tr>
+    <tr><td><strong>Mais acessível</strong></td><td>Muito alta</td><td>Foco em margem: "cabe no seu custo e você lucra mais". O momento é favorável.</td></tr>
+    <tr><td><strong>Produto nacional</strong></td><td>Alta</td><td>É o porquê que sustenta o resto: nacional significa mais acessível e fornecimento mais estável.</td></tr>
+    <tr><td><strong>Pronta entrega</strong></td><td>Alta</td><td>Dor sazonal. Ative com força antes dos picos (Páscoa, Mães, Namorados, Natal).</td></tr>
+    <tr><td><strong>Variedade de sabores</strong></td><td>Média</td><td>Fraca como dor, forte como gancho de tendência (pistache, matcha, edição limitada).</td></tr>
   </table></div>
-  <div class="note"><strong>Munição de mercado:</strong> o cacau subiu ~189% e o importado ficou caro e instável (nacional no auge da relevância) · datas comemorativas = até <strong>40% do faturamento</strong> de uma confeiteira · a maioria já usa cobertura/fracionado (que aguenta calor), então o MPS compete no segmento que é <strong>maioria</strong> · o jogo do MPS não é mídia paga, é <strong>confiança + prova</strong> (amostra, WhatsApp, depoimento, boca a boca nos grupos).</div>
+  <div class="note"><strong>Contexto de mercado:</strong> o cacau subiu muito e o importado ficou caro e instável (nacional no auge da relevância) · datas comemorativas podem ser até <strong>40% do faturamento</strong> de uma confeiteira · a maioria já usa cobertura ou fracionado, então o MPS compete no segmento que é <strong>maioria</strong> · para um fornecedor pequeno, o jogo é confiança e prova (WhatsApp, depoimento, boca a boca), não mídia paga.</div>
 </div></section>
 
 <!-- 4 -->
-<section id="editorial"><div class="wrap">
+<section id="pilares"><div class="wrap">
   <span class="num">04</span>
-  <h2 class="sec">Linha editorial — os 5 pilares</h2>
-  <p class="lead">Todo post cai em um destes 5 pilares. Equilibra construir autoridade e gerar pedido.</p>
-
-  <div class="pillar" style="--pc:var(--p1)"><span class="pct">~35%</span><h3>🍫 1 · Mão na massa <em>(o maior)</em></h3><p style="margin:0">A casca ganhando vida: recheios, finalização, variações. Ensinar a aplicação <strong>é</strong> vender o produto (roubado da Dobla).</p><p class="goal">Objetivo: mostrar resultado bonito + ideia pronta pra ela usar. Gera salvamento.</p></div>
-  <div class="pillar" style="--pc:var(--p2)"><span class="pct">~20%</span><h3>✅ 2 · Prova e confiança</h3><p style="margin:0">Depoimento, repost "feito com MPS", antes/depois no calor, "mesma qualidade todo lote".</p><p class="goal">Objetivo: quebrar objeção e puxar amostra. É o que mais converte.</p></div>
-  <div class="pillar" style="--pc:var(--p3)"><span class="pct">~20%</span><h3>📅 3 · Calendário e datas</h3><p style="margin:0">Páscoa, Mães, Namorados, Junina, Natal, casamento. Antecipa o pico e ativa a pronta entrega.</p><p class="goal">Objetivo: pedido recorrente puxado por data.</p></div>
-  <div class="pillar" style="--pc:var(--p4)"><span class="pct">~15%</span><h3>👋 4 · Bastidor e rosto</h3><p style="margin:0">Quem é o MPS, a fábrica, o "feito aqui", a pessoa que atende no zap.</p><p class="goal">Objetivo: confiança e proximidade que marca grande não tem.</p></div>
-  <div class="pillar" style="--pc:var(--p5)"><span class="pct">~10%</span><h3>💰 5 · Ganha-dinheiro e gestão</h3><p style="margin:0">Rendimento, margem, precificação, "quanto você lucra com a caixa".</p><p class="goal">Objetivo: virar referência que ajuda a confeiteira a lucrar. Gera compartilhamento.</p></div>
-
-  <div class="note"><strong>Mix semanal (3 a 4 posts):</strong> 1 de Mão na massa 🍫 · 1 de Prova ✅ ou Bastidor 👋 · 1 de Calendário 📅 ou Ganha-dinheiro 💰 · Stories quase todo dia.</div>
+  <h2 class="sec">Linha editorial: os 5 pilares</h2>
+  <p class="lead">Todo post cai em um destes cinco pilares. Cada um já traz o tipo de imagem que combina.</p>
+  <div class="pillar" style="--pc:var(--p1)"><span class="pct">~35%</span><h3>🍫 1 · Mão na massa <em>(o maior)</em></h3><p>A casca ganhando vida: recheios, finalização, variações. Ensinar a aplicação já é vender o produto.</p><p class="img">Imagem: a casca sendo recheada, a trufa pronta, um close do brilho.</p></div>
+  <div class="pillar" style="--pc:var(--p2)"><span class="pct">~20%</span><h3>✅ 2 · Prova e confiança</h3><p>Depoimento, repost de cliente, antes e depois no calor, consistência.</p><p class="img">Imagem: print de elogio, foto da trufa da cliente, teste no calor.</p></div>
+  <div class="pillar" style="--pc:var(--p3)"><span class="pct">~20%</span><h3>📅 3 · Calendário e datas</h3><p>Páscoa, Mães, Namorados, junina, Natal, casamento. Antecipa o pico.</p><p class="img">Imagem: a trufa no clima da data, contagem regressiva, mesa de festa.</p></div>
+  <div class="pillar" style="--pc:var(--p4)"><span class="pct">~15%</span><h3>👋 4 · Bastidor e rosto</h3><p>Quem é o MPS, a fábrica, o feito aqui, a pessoa que atende.</p><p class="img">Imagem: produção, a fábrica, a equipe, o processo.</p></div>
+  <div class="pillar" style="--pc:var(--p5)"><span class="pct">~10%</span><h3>💰 5 · Ganha-dinheiro e gestão</h3><p>Rendimento, margem, precificação, "quanto você lucra com a caixa".</p><p class="img">Imagem: a caixa, um cálculo simples e visual, comparativo.</p></div>
+  <div class="note"><strong>Mix semanal (3 a 4 posts):</strong> 1 de Mão na massa · 1 de Prova ou Bastidor · 1 de Calendário ou Ganha-dinheiro · Stories quase todo dia.</div>
 </div></section>
 
 <!-- 5 -->
-<section id="bio"><div class="wrap">
+<section id="pratica"><div class="wrap">
   <span class="num">05</span>
-  <h2 class="sec">Bio do Instagram</h2>
-  <p class="lead">Tem que responder em 3 segundos: o que é, pra quem, e o que fazer agora.</p>
+  <h2 class="sec">Como fica um post na prática</h2>
+  <p class="lead">Montar o post é onde mora a maior dificuldade. Aqui está a estrutura e três exemplos prontos de imagem mais legenda. Dá para reproduzir esse padrão sozinho ou pedir ao Claude que monte seguindo o modelo.</p>
+  <div class="simhead">A anatomia de um bom post: uma imagem que para o dedo, uma primeira linha que fisga, um corpo curto com respiro e um único CTA.</div>
+  <div class="anatomy">
+    <span class="achip"><b>1.</b> Imagem forte</span>
+    <span class="achip"><b>2.</b> Gancho (1ª linha)</span>
+    <span class="achip"><b>3.</b> Corpo curto</span>
+    <span class="achip"><b>4.</b> Um CTA</span>
+    <span class="achip"><b>5.</b> Hashtags</span>
+  </div>
 
-  <div class="bio"><span class="lbl">Opção A · recomendada</span>Chocolate nacional feito aqui 🍫
-Cascas de trufa prontas pra rechear
-Você recheia, fecha e vende ✨
-📦 Pronta entrega • amostra no WhatsApp 👇</div>
+  <div class="sim">
+    <div class="simg"><img src="assets/sim1.jpg" alt="Cascas de trufa vazias ao lado de tigela de ganache"><span class="fmt">Reels · Mão na massa</span></div>
+    <div class="scap">
+      <span class="lbl">Exemplo 1 · Só rechear e vender</span>
+      <p class="g">Enquanto umas moldam casca por casca, você já está vendendo.</p>
+      <p class="body">A casca já vem pronta, lisa e brilhante.
+Você faz o recheio da sua receita, fecha e entrega.
+Menos tempo na bancada, mais pedidos no mês.</p>
+      <p class="c">Chama no WhatsApp e peça a tabela.</p>
+      <p class="h">#confeitaria #trufas #chocolatenacional #docesparafesta</p>
+    </div>
+  </div>
 
-  <div class="bio"><span class="lbl">Opção B · foco na dor</span>Casca de trufa com acabamento de confeitaria fina
-Chocolate nacional • aguenta o calor ☀️
-Menos tempo moldando, mais tempo vendendo
-Peça sua amostra 👇</div>
+  <div class="sim">
+    <div class="simg"><img src="assets/sim2.jpg" alt="Trufas cortadas ao meio mostrando recheios variados"><span class="fmt">Carrossel · Mão na massa</span></div>
+    <div class="scap">
+      <span class="lbl">Exemplo 2 · 5 recheios para a sua trufa</span>
+      <p class="g">5 recheios para vender mais com a mesma casca.</p>
+      <p class="body">1. Ganache
+2. Brigadeiro gourmet
+3. Doce de leite
+4. Ninho
+5. Maracujá
 
-  <div class="bio"><span class="lbl">Opção C · curta e direta</span>Fábrica de chocolate nacional 🍫
-Trufas ocas prontas pra rechear • pronta entrega
-Amostras e pedidos no WhatsApp 👇</div>
+A base é a nossa. O sabor e a assinatura são seus.</p>
+      <p class="c">Salva esse post e me conta qual você vai testar.</p>
+      <p class="h">#confeitaria #confeiteira #trufaoca #docinhosdefesta</p>
+    </div>
+  </div>
 
-  <p><strong>Campo "Nome" (conta na busca):</strong> <code>MPS Alimentos • Cascas de Trufa</code></p>
-  <p><strong>Destaques fixados:</strong> Amostras · Recheios · Aguenta o calor · Como comprar · Clientes · A fábrica</p>
-  <p style="margin:0"><strong>Link:</strong> de preferência um WhatsApp direto. O zap é o balcão.</p>
+  <div class="sim">
+    <div class="simg"><img src="assets/p1.jpg" alt="Mesa de doces de festa"><span class="fmt">Foto · Calendário e festa</span></div>
+    <div class="scap">
+      <span class="lbl">Exemplo 3 · Mesa de festa sem virar a noite</span>
+      <p class="g">Uma mesa dessas não precisa custar a sua madrugada.</p>
+      <p class="body">Com a casca pronta, você monta o volume de uma festa inteira em muito menos tempo.
+O acabamento fica uniforme, do primeiro ao último docinho.</p>
+      <p class="c">Vai ter festa grande no mês? Chama no WhatsApp e monte seu pedido.</p>
+      <p class="h">#docesparafesta #casamento #confeitariacuritiba #mesadedoces</p>
+    </div>
+  </div>
+
+  <p class="legendkey">Repare no padrão dos três: a linha em <b>itálico</b> é o gancho, o bloco do meio é o corpo curto, e a linha em <b>destaque</b> é o CTA único. É esse molde que se repete em todo post.</p>
 </div></section>
 
 <!-- 6 -->
-<section id="manual"><div class="wrap">
+<section id="bio"><div class="wrap">
   <span class="num">06</span>
-  <h2 class="sec">Manual de como postar</h2>
-  <p class="lead">Tom, estrutura, espaçamento, CTAs e formatos. Tudo pensado pra produzir sozinho, no celular.</p>
+  <h2 class="sec">Bio do Instagram</h2>
+  <p class="lead">A bio precisa responder em poucos segundos: o que é, para quem e o que fazer agora.</p>
+  <div class="bio"><span class="lbl">Opção A · recomendada</span>Chocolate nacional feito aqui
+Cascas de trufa prontas para rechear
+Você recheia, fecha e vende
+Pronta entrega e pedidos no WhatsApp</div>
+  <div class="bio"><span class="lbl">Opção B · foco na dor</span>Casca de trufa com acabamento de confeitaria fina
+Chocolate nacional que aguenta o calor
+Menos tempo moldando, mais tempo vendendo
+Peça a tabela no WhatsApp</div>
+  <div class="bio"><span class="lbl">Opção C · curta e direta</span>Fábrica de chocolate nacional
+Trufas ocas prontas para rechear
+Pronta entrega. Pedidos e tabela no WhatsApp</div>
+  <p><strong>Campo "Nome" (conta na busca):</strong> <code>MPS Alimentos • Cascas de Trufa</code></p>
+  <p><strong>Destaques fixados:</strong> Recheios · Aguenta o calor · Como comprar · Clientes · A fábrica</p>
+  <p style="margin:0"><strong>Link:</strong> de preferência um WhatsApp direto. O WhatsApp é o balcão de venda.</p>
+</div></section>
+
+<!-- 7 -->
+<section id="manual"><div class="wrap">
+  <span class="num">07</span>
+  <h2 class="sec">Manual de postagem</h2>
 
   <h3>Linguagem</h3>
   <ul>
-    <li>Fale <strong>de igual pra igual</strong> com a confeiteira. Você senta do lado dela, não no púlpito da indústria.</li>
-    <li>Simples e direto. Nada de "supply chain", "excelência regulatória", ESG. Ela não fala essa língua.</li>
-    <li>Fale do <strong>resultado dela</strong> (tempo, margem, tranquilidade), não da sua gramatura.</li>
-    <li>Acolhedor e profissional, <strong>nunca hard-sell</strong>. Sem travessão nos textos.</li>
-    <li><strong>Sim:</strong> pronta, rende, aguenta, acabamento, brilho, no aperto, cabe na margem, feito aqui. <strong>Não:</strong> jargão de indústria, promessa exagerada, tom premium-distante.</li>
+    <li>Fale de igual para igual com a confeiteira. Você entende a rotina dela.</li>
+    <li>Simples e direto. Evite termos técnicos e corporativos.</li>
+    <li>Fale do resultado dela (tempo, margem, tranquilidade), não da sua especificação.</li>
+    <li>Tom acolhedor e profissional, nunca agressivo.</li>
+    <li>Palavras que combinam: pronta, rende, aguenta, acabamento, brilho, no aperto, cabe na margem, feito aqui.</li>
   </ul>
-
-  <h3>Estrutura da legenda</h3>
-  <div class="bio" style="background:var(--paper);color:var(--ink);border:1px solid var(--line)">[LINHA 1 = GANCHO]  ← fisga antes do "...mais"
-
-[CORPO]  ← 2 a 4 blocos curtos, uma ideia por linha
-
-[CTA]  ← o que fazer agora (um só)
-
-[HASHTAGS]  ← no fim ou no 1º comentário</div>
 
   <h3>Espaçamento (o que faz ler no celular)</h3>
   <ul>
-    <li><strong>A primeira linha é tudo.</strong> É o gancho. Não gaste com "Bom dia, pessoal!".</li>
-    <li><strong>Uma ideia por linha</strong>, com linha em branco entre blocos. Texto em bloco ninguém lê.</li>
-    <li>Emoji com parcimônia, como marcador no início da linha, não confete no meio.</li>
-    <li>Legenda curta vende mais no dia a dia; carrossel educativo pode ser mais longo.</li>
-    <li><strong>Um CTA só.</strong> Dois pedidos = nenhum feito.</li>
+    <li>A primeira linha decide tudo. É o gancho, não gaste com "oi, gente".</li>
+    <li>Uma ideia por linha, com linha em branco entre os blocos.</li>
+    <li>Emoji com moderação, como marcador no início da linha.</li>
+    <li>Legenda curta vende no dia a dia. Carrossel educativo pode ser mais longo.</li>
+    <li>Um único CTA por post.</li>
   </ul>
 
   <h3>Biblioteca de CTAs <span style="font-weight:400;color:var(--muted);font-size:.95rem">(um por post)</span></h3>
   <div class="twrap"><table>
     <tr><th>Objetivo</th><th>CTA</th></tr>
-    <tr><td>Amostra / lead</td><td>"Comenta AMOSTRA que eu te chamo no WhatsApp."</td></tr>
-    <tr><td>Salvar (alcance)</td><td>"Salva esse post pra usar na próxima encomenda."</td></tr>
-    <tr><td>Comentar (alcance)</td><td>"Qual recheio você faria? Conta aqui 👇"</td></tr>
+    <tr><td>Gerar pedido</td><td>"Chama no WhatsApp e peça a tabela."</td></tr>
+    <tr><td>Gerar contato</td><td>"Comenta EU QUERO que eu te chamo no WhatsApp."</td></tr>
+    <tr><td>Salvar (alcance)</td><td>"Salva esse post para usar na próxima encomenda."</td></tr>
+    <tr><td>Comentar (alcance)</td><td>"Qual recheio você faria? Conta aqui."</td></tr>
     <tr><td>Compartilhar</td><td>"Marca aquela confeiteira que vive sem tempo."</td></tr>
-    <tr><td>Seguir (autoridade)</td><td>"Segue pra não perder as ideias de recheio da semana."</td></tr>
-    <tr><td>Pedido (data)</td><td>"Garanta sua casca antes do aperto da Páscoa. Chama no zap."</td></tr>
+    <tr><td>Seguir</td><td>"Segue para não perder as ideias de recheio da semana."</td></tr>
+    <tr><td>Pedido por data</td><td>"Garanta sua casca antes do aperto da Páscoa. Chama no WhatsApp."</td></tr>
   </table></div>
 
-  <h3>Formatos que funcionam (feito no celular)</h3>
+  <h3>Formatos (dá para fazer no celular)</h3>
   <ul>
-    <li><strong>Reels 15-30s:</strong> o que mais dá alcance. Casca → recheio → fecha → vende. Bastidor. Antes/depois no calor.</li>
+    <li><strong>Reels 15-30s:</strong> o que mais gera alcance. Casca, recheio, fecha, vende. Bastidor. Antes e depois no calor.</li>
     <li><strong>Carrossel 3-6 fotos:</strong> "5 recheios", passo a passo, comparativo. Gera salvamento.</li>
-    <li><strong>Foto única bem tirada:</strong> produto herói com luz de janela e fundo limpo.</li>
-    <li><strong>Stories:</strong> o motor diário — enquete, "chegou lote novo", dúvida respondida, bastidor cru.</li>
-    <li>Não precisa de estúdio. Luz natural + fundo limpo + celular. Capricho &gt; equipamento.</li>
+    <li><strong>Foto única bem tirada:</strong> produto em destaque, luz de janela, fundo limpo.</li>
+    <li><strong>Stories:</strong> o motor diário. Enquete, "chegou lote novo", dúvida respondida, bastidor.</li>
+    <li>Não precisa de estúdio. Luz natural e fundo limpo resolvem. Capricho vale mais que equipamento.</li>
   </ul>
 
-  <div class="note"><strong>Ponto de partida (hoje):</strong> o @mps.alimentos está começando praticamente do zero (6 posts, 9 seguidores). É normal. Os primeiros 60 a 90 dias são pra encher o feed de mão na massa e prova, e ativar o boca a boca com amostra. Não persiga viral; persiga o primeiro "feito com MPS" de uma confeiteira real.</div>
+  <div class="note"><strong>Ponto de partida:</strong> o perfil está começando quase do zero, o que é normal. Os primeiros 60 a 90 dias servem para encher o feed de mão na massa e prova, e ativar o boca a boca com clientes reais. Publique de 3 a 4 vezes por semana, com Stories quase todo dia. Constância vale mais que volume.</div>
 
-  <h3>Ritmo, horários e hashtags</h3>
-  <ul>
-    <li><strong>3 a 4 posts/semana</strong> + Stories quase todo dia. Constância &gt; volume.</li>
-    <li>Horários que a confeiteira olha o celular: manhã cedo (7-9h), início da tarde (12-14h), noite (19-21h).</li>
-    <li>Hashtags (5 a 12, misturando nicho + local + produto): <code>#confeitaria #confeiteira #trufas #docesparafesta #chocolatenacional #trufaoca #confeitariacuritiba #docescuritiba #pascoa</code></li>
-  </ul>
-</div></section>
-
-<!-- 7 -->
-<section id="posts"><div class="wrap">
-  <span class="num">07</span>
-  <h2 class="sec">Sugestões de posts</h2>
-  <p class="lead">12 ideias prontas pra produzir no celular. Cada uma com formato, gancho e CTA.</p>
-
-  <div class="post"><div class="phd"><h3>1 · Só rechear e vender</h3><span class="fmt">Reels · Pilar 1</span></div><p class="hook">"Enquanto você molda casca por casca, ela já tá vendendo."</p><p style="margin:0">Pega a casca, recheia, fecha, embala, vende. Ritmo rápido.</p><p class="cta"><b>CTA:</b> Comenta AMOSTRA que te chamo no zap.</p></div>
-
-  <div class="post"><div class="phd"><h3>2 · Teste do calor</h3><span class="fmt">Reels/foto · Pilar 2</span></div><p class="hook">"Deixei a trufa no carro fechado. Olha o que aconteceu."</p><p style="margin:0">A casca no calor, continua firme e com brilho.</p><p class="cta"><b>CTA:</b> Salva pra sua próxima entrega de verão.</p></div>
-
-  <div class="post"><div class="phd"><h3>3 · 5 recheios pra sua trufa oca</h3><span class="fmt">Carrossel · Pilar 1</span></div><p class="hook">Ganache, brigadeiro gourmet, doce de leite, ninho, maracujá.</p><p style="margin:0">Uma foto por recheio.</p><p class="cta"><b>CTA:</b> Salva e me conta qual você vai testar 👇</p></div>
-
-  <div class="post"><div class="phd"><h3>4 · Quanto você lucra</h3><span class="fmt">Carrossel · Pilar 5</span></div><p class="hook">"A conta que toda confeiteira devia fazer antes da festa."</p><p style="margin:0">Caixa de 126, custo por unidade, preço de venda, lucro.</p><p class="cta"><b>CTA:</b> Salva pra usar no próximo orçamento.</p></div>
-
-  <div class="post"><div class="phd"><h3>5 · Feito com MPS</h3><span class="fmt">Repost · Pilar 2</span></div><p class="hook">Reposta a trufa que uma cliente fez + print do elogio.</p><p class="cta"><b>CTA:</b> Fez com a nossa casca? Marca a gente ❤️</p></div>
-
-  <div class="post"><div class="phd"><h3>6 · Conheça quem faz</h3><span class="fmt">Reels bastidor · Pilar 4</span></div><p class="hook">"O chocolate que chega na sua confeitaria é feito bem aqui."</p><p style="margin:0">Fábrica, produção, rosto e voz de quem atende.</p><p class="cta"><b>CTA:</b> Segue pra acompanhar os bastidores.</p></div>
-
-  <div class="post"><div class="phd"><h3>7 · Contagem regressiva da data</h3><span class="fmt">Foto/Reels · Pilar 3</span></div><p class="hook">"Faltam 3 semanas pra Páscoa. Sua casca já tá garantida?"</p><p class="cta"><b>CTA:</b> Garanta com antecedência. Chama no WhatsApp 👆</p></div>
-
-  <div class="post"><div class="phd"><h3>8 · Trend do momento</h3><span class="fmt">Reels · Pilar 1</span></div><p class="hook">"Trufa de pistache com chocolate nacional que aguenta o calor. Bora?"</p><p style="margin:0">Surfa o sabor da vez.</p><p class="cta"><b>CTA:</b> Salva a ideia pra sua próxima linha.</p></div>
-
-  <div class="post"><div class="phd"><h3>9 · Mito x verdade</h3><span class="fmt">Carrossel · Pilar 2</span></div><p class="hook">"'Casca pronta é menos artesanal?' Vem que a gente conversa."</p><p style="margin:0">A casca é a base; o recheio, o sabor e a assinatura continuam 100% seus.</p><p class="cta"><b>CTA:</b> Concorda? Comenta aqui 👇</p></div>
-
-  <div class="post"><div class="phd"><h3>10 · Moldar x pronta</h3><span class="fmt">Reels comparativo · Pilar 1</span></div><p class="hook">Lado a lado: temperar e moldar vs. abrir a caixa e rechear.</p><p class="cta"><b>CTA:</b> Quer testar o atalho? Comenta AMOSTRA.</p></div>
-
-  <div class="post"><div class="phd"><h3>11 · Nacional que cabe na margem</h3><span class="fmt">Foto/carrossel · Pilar 5</span></div><p class="hook">"Com o importado nas alturas, dá pra manter o padrão sem estourar o custo."</p><p class="cta"><b>CTA:</b> Chama no zap e faz as contas com a gente.</p></div>
-
-  <div class="post"><div class="phd"><h3>12 · Kit de festa</h3><span class="fmt">Foto · Pilar 3</span></div><p class="hook">"Mesa de 500 docinhos sem passar a madrugada moldando casca."</p><p class="cta"><b>CTA:</b> Monta seu pedido de festa no WhatsApp 👆</p></div>
+  <h3>Hashtags</h3>
+  <p style="margin:0">De 5 a 12, misturando nicho, local e produto: <code>#confeitaria #confeiteira #trufas #docesparafesta #chocolatenacional #trufaoca #confeitariacuritiba #docescuritiba #pascoa</code></p>
 </div></section>
 
 <!-- 8 -->
-<section id="erros"><div class="wrap">
+<section id="ideias"><div class="wrap">
   <span class="num">08</span>
-  <h2 class="sec">Erros a evitar</h2>
-  <ul>
-    <li>❌ Copiar o tom frio e corporativo das grandes (Barry Callebaut é anti-referência de tom).</li>
-    <li>❌ Soar premium-distante (a Carol que faz 300 docinhos pra vender no bairro precisa se sentir incluída).</li>
-    <li>❌ Jargão de indústria ("terceirização", "supply chain", ESG).</li>
-    <li>❌ Feed só de catálogo e preço, sem rosto. Pequeno ganha com pessoa, mão na massa e prova.</li>
-    <li>❌ Dois CTAs no mesmo post.</li>
-    <li>❌ Promessa exagerada ou hard-sell. O jogo é confiança e prova.</li>
-    <li>❌ Sumir. Constância (3-4/semana) &gt; um mês bom seguido de silêncio.</li>
-  </ul>
-</div></section>
-
-<!-- 9 -->
-<section id="check"><div class="wrap">
-  <span class="num">09</span>
-  <h2 class="sec">Checklist antes de postar</h2>
-  <ul class="chk">
-    <li>A <strong>primeira linha</strong> fisga (não é "oi pessoal")?</li>
-    <li>Fala do <strong>resultado dela</strong> (tempo, margem, tranquilidade)?</li>
-    <li>Tem <strong>um</strong> CTA claro?</li>
-    <li>O texto tem <strong>respiro</strong> (uma ideia por linha)?</li>
-    <li>Cai em <strong>um dos 5 pilares</strong>?</li>
-    <li>Tom de <strong>parceiro acessível</strong> (sem jargão, sem travessão, sem hard-sell)?</li>
-    <li>Se for de venda, o caminho pro <strong>WhatsApp</strong> está fácil?</li>
-  </ul>
+  <h2 class="sec">Banco de ideias de post</h2>
+  <p class="lead">12 ideias com formato, pilar, imagem sugerida e CTA. Todas dá para produzir no celular.</p>
+  <div class="twrap"><table>
+    <tr><th>Ideia</th><th>Formato · Pilar</th><th>Imagem</th><th>CTA</th></tr>
+    <tr><td>1 · Só rechear e vender</td><td>Reels · 1</td><td>Casca sendo recheada</td><td>Peça a tabela</td></tr>
+    <tr><td>2 · Teste do calor</td><td>Reels/foto · 2</td><td>Trufa firme no calor</td><td>Salvar</td></tr>
+    <tr><td>3 · 5 recheios</td><td>Carrossel · 1</td><td>Trufas com recheios</td><td>Salvar</td></tr>
+    <tr><td>4 · Quanto você lucra</td><td>Carrossel · 5</td><td>A caixa e um cálculo</td><td>Salvar</td></tr>
+    <tr><td>5 · Feito com MPS</td><td>Repost · 2</td><td>Trufa da cliente + elogio</td><td>Marcar a gente</td></tr>
+    <tr><td>6 · Conheça quem faz</td><td>Reels · 4</td><td>Fábrica e produção</td><td>Seguir</td></tr>
+    <tr><td>7 · Contagem regressiva</td><td>Foto/Reels · 3</td><td>Trufa no clima da data</td><td>Pedir com antecedência</td></tr>
+    <tr><td>8 · Trend do momento</td><td>Reels · 1</td><td>O sabor da vez</td><td>Salvar</td></tr>
+    <tr><td>9 · Mito e verdade</td><td>Carrossel · 2</td><td>Casca + texto</td><td>Comentar</td></tr>
+    <tr><td>10 · Moldar x pronta</td><td>Reels · 1</td><td>Os dois processos</td><td>Comentar</td></tr>
+    <tr><td>11 · Nacional na margem</td><td>Foto · 5</td><td>A caixa e o produto</td><td>Peça a tabela</td></tr>
+    <tr><td>12 · Kit de festa</td><td>Foto · 3</td><td>Mesa de doces</td><td>Montar pedido</td></tr>
+  </table></div>
 
   <div class="final">
-    <div class="big">O MPS não vende casca de chocolate. Vende <b>tempo, margem e tranquilidade</b> pra confeiteira vender mais. Mostre o produto virando trufa, prove que aguenta e que rende, fale como parceiro, e leve tudo pro WhatsApp.</div>
+    <div class="big">O MPS não vende casca de chocolate. Vende <b>tempo, margem e tranquilidade</b> para a confeiteira vender mais. Mostre o produto virando trufa, prove que aguenta e que rende, fale como parceiro e leve tudo para o WhatsApp.</div>
   </div>
 </div></section>
 
 </main>
 
 <footer>
-  <div class="wrap">Método: pesquisa de mercado (confeitaria BR, cacau ~189%, sazonalidade) + análise das marcas de referência (Dobla, Barry Callebaut, TopCau) + leitura direta dos 6 perfis de Instagram dos clientes e do @mps.alimentos (Ago/2026).</div>
+  <div class="wrap">Método: pesquisa de mercado (confeitaria no Brasil, alta do cacau, sazonalidade) + análise das marcas de referência (Dobla, Barry Callebaut, TopCau) + leitura direta dos 6 perfis de Instagram dos clientes e do MPS, em agosto de 2026.</div>
 </footer>
 </body>
 </html>

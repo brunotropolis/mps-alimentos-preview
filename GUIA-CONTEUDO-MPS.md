@@ -1,323 +1,346 @@
-# Guia de Conteúdo e Comunicação — MPS Alimentos
-### Chocolate nacional para confeitaria · Trufas Ocas prontas pra rechear
+# Guia de Conteúdo e Comunicação · MPS Alimentos
+### Chocolate nacional para confeitaria · Trufas Ocas prontas para rechear
 
-> **Como usar este guia:** ele é a base de estratégia das redes do MPS. Serve pra ler, seguir no dia a dia e também pra subir no Claude como contexto (assim qualquer legenda, post ou ideia que você pedir já sai no tom certo). Não precisa fazer tudo de uma vez: comece pela BIO, pelos 5 pilares e por 3 posts por semana.
+Este guia é a base de comunicação das redes do MPS Alimentos. Ele reúne o posicionamento, as personas, o mapa de dores, a linha editorial, a estrutura de um post (com exemplos prontos), a bio e o manual de postagem. Pode ser lido como orientação de trabalho e também usado como contexto no Claude, para que cada legenda ou ideia já saia no tom certo.
+
+Sugestão de ordem para começar: ajustar a **bio**, definir os **5 pilares** e publicar **3 posts por semana** seguindo os exemplos da seção "Como fica um post na prática".
 
 ---
 
-## 1. A virada de posicionamento (a ideia que sustenta tudo)
+## 1. A grande ideia (posicionamento)
 
-As três marcas que o MPS admira vendem **chocolate**:
-- **Dobla** vende status e acabamento (o "toque final" do chef).
-- **Barry Callebaut** vende escala e confiabilidade industrial.
-- **TopCau** vende parceria e preço de fábrica.
+As três marcas de referência (Dobla, Barry Callebaut e TopCau) são gigantes que falam com a indústria e com o chef de alto padrão. Elas vendem **chocolate**: acabamento, escala e tradição.
 
-O MPS é pequeno, nacional e fala **direto com a confeiteira que produz sozinha ou com uma equipe enxuta**. Se imitar o tom das grandes, vira uma cópia fraca e distante. A vantagem estrutural do MPS é justamente o oposto delas:
+O MPS tem uma vantagem que nenhuma delas consegue ter: **proximidade**. Em vez de disputar o mesmo tom institucional, o MPS ganha pela relação direta com a confeiteira, falando a língua de quem produz no dia a dia.
 
-> **O MPS não vende chocolate. O MPS vende o sucesso da confeiteira.**
-> A casca de trufa é só o meio. O que ela compra é **tempo, margem e tranquilidade** pra vender mais sem se matar na produção.
+> **A ideia central: o MPS não vende chocolate. O MPS vende o resultado da confeiteira.**
+> A casca de trufa é o meio. O que a cliente compra é tempo, margem e tranquilidade para vender mais sem se sobrecarregar na produção.
 
-Nenhuma marca grande consegue ocupar esse lugar (elas são distantes demais). Esse é o território do MPS. Tudo neste guia serve pra sustentar essa frase.
+Esse é um território que as marcas grandes não ocupam, porque estão distantes da rotina da confeiteira. É onde o MPS pode ser líder.
 
-**Frase de posicionamento (a "estrela-guia" da comunicação):**
+**Frase que guia a comunicação:**
 > "Você recheia, fecha e vende. A casca pronta é com a gente."
 
 ---
 
-## 2. Persona — pra quem o MPS fala
+## 2. Personas
 
-*(Esta parte foi refeita com os 6 perfis abertos de verdade no Instagram, não só as bios de busca.)*
+As personas abaixo foram construídas a partir da leitura direta dos perfis de clientes no Instagram (todos de Curitiba e região, de confeitaria fina e encomenda) e da pesquisa de mercado. Elas representam **comportamentos**, não pessoas específicas. Uma confeitaria pode ter traços das duas.
 
-Os 6 clientes-referência que você passou são **todos de Curitiba/PR**, todos de **festa e encomenda premium**, e todos **marcas maduras e grandes** (de 23 mil a 190 mil seguidores). A maioria é liderada por mulheres, **mas não todas** (a Délices de Sucre é do **Chef Johnlee, homem**). Ou seja, o fio condutor não é gênero: é o **posicionamento fino + o rosto de chef à frente da marca**.
+Importante: a maioria desse público é de mulheres, mas não exclusivamente. Um dos perfis analisados, por exemplo, é liderado por um chef homem. Por isso o guia fala de "confeiteira" como papel, sem excluir ninguém.
 
-**Os 6 perfis (dado real):**
-
-| Perfil | Seguidores | O que é | Foco |
-|---|---|---|---|
-| @delicesdesucre | ~190 mil | Pâtisserie, 2 lojas, Chef Johnlee | Vitrine premium + coleções sazonais |
-| @swdocesexclusivos | ~53 mil | Doces exclusivos pra evento | Casamento, 15 anos, corporativo |
-| @cheiadegracapatisserie | ~45 mil | Café + confeitaria (Batel), macarons | Loja/vitrine + encomenda |
-| @madocesespeciais | ~40 mil | Mariana Abouhamad, desde 2013 | Eventos, encomendas, presentes |
-| @jennygourmets | ~26 mil | Jenny, doces finos e bolos de casamento | Casamento (8 anos premiada) |
-| @confeitariaberries | ~23 mil | Bolos e doces finos decorados | Encomenda personalizada |
-
-**Os dois níveis de cliente (isso muda a estratégia):**
-- **Nível A — os nomes acima:** confeitarias premium, estabelecidas, exigentes no acabamento. É o cliente **aspiracional**: compra no volume das festas e nos picos, mas pode preferir moldar a própria casca. Ganhar uma dessas dá vitrine e boca a boca forte no meio de Curitiba (todas se conhecem).
-- **Nível B — a base que converte mais rápido:** a confeiteira menor, que trabalha de casa (perfil Sebrae: 31-51 anos, informal/MEI, margem apertada). É quem mais sente a dor de "acessível + ganho de tempo" e decide mais rápido. **O volume de venda do MPS provavelmente vem daqui.** E lembra: a bio do MPS diz "confeitaria **e padarias**" — padaria também entra.
-
-Isso dá duas personas: uma principal (o coração da venda) e uma secundária.
-
-### 🎯 Persona 1 — "Carol, a confeiteira de festa" (PRINCIPAL)
-
-- **Quem é:** dona (quase sempre uma mulher, mas nem sempre) de 30 a 50 anos à frente do próprio negócio de doces (o nome dela ou uma assinatura está na marca). Curitiba e região. Trabalha sozinha com uma ou duas ajudantes, ou já tem uma equipe pequena.
-- **O que vende:** docinho fino e trufa pra **casamento, 15 anos, corporativo, mesa de festa**. Vende por encomenda, em **volume** (300 a 800 docinhos por evento).
-- **Rotina:** vive de **pico**. Semana calma, depois uma enxurrada de pedido junto de uma data comercial. O recurso mais escasso dela é **tempo e mão de obra na hora do aperto**.
-- **A dor real:** moldar casca de trufa é etapa **demorada, técnica e que dá erro** (temperagem, brilho, quebra). É exatamente isso que a casca pronta resolve.
-- **O que ela valoriza (nesta ordem):**
-  1. **Acabamento impecável** (ela vende "fino"; casca feia queima a marca dela). Esse é o filtro nº 1.
-  2. **Ganhar tempo e escala** sem contratar mais gente no pico.
-  3. **Fornecimento que não falha** perto da data.
-  4. **Preço/margem** (importa, mas vem depois da qualidade).
-  5. **Atendimento humano e rápido** no WhatsApp.
-- **O que a trava (objeções):**
-  - Medo de perder o "feito por mim" → *resposta: a casca é a base, o recheio e a assinatura continuam seus.*
-  - Desconfia de nacional vs importado → *resposta: amostra na mão (ver o brilho, provar).*
-  - Caixa de 126 parece muito → *pra quem faz festa, é natural; mostrar o rendimento.*
-  - Já tem fornecedor → *só troca com prova clara de ganho.*
-- **Como ela decide:** de forma **visual e por prova**. Vê no Instagram → pede amostra → testa num pedido pequeno → se aguentou o padrão dela e o zap respondeu, **fideliza**. Boca a boca entre confeiteiras de Curitiba pesa muito.
-
-### 🌸 Persona 2 — "Renata, a chef de vitrine premium" (SECUNDÁRIA)
-
-- **Quem é:** chef à frente de uma **pâtisserie/doceria com loja física**, marca autoral e presença de mídia. Mais exigente e mais "artesanal-orgulhosa".
-- **Como compra:** ela pode preferir moldar a própria casca no dia a dia, mas **compra pronta nos picos** (Páscoa, Natal) por pura eficiência quando o volume estoura.
-- **Como falar com ela:** menos "atalho", mais **qualidade e conveniência em pico**. O argumento é "no aperto da Páscoa, a casca pronta te salva sem baixar o padrão".
-
-> **Regra prática:** escreva 80% do conteúdo pensando na **Carol**. Ela é quem compra em volume e recorrente. A Renata entra nas campanhas de data comemorativa.
+Cada ficha traz também **como se comunicar com aquela persona** (o que fazer e o que evitar). Escolha a linguagem conforme o post pede.
 
 ---
 
-## 3. Mapa de dores — o que dói e como comunicar
+### Persona 1 · Carol, 38 · A confeiteira que vive de encomenda
 
-O MPS listou 5 dores. A pesquisa validou quais são fortes de verdade e revelou uma 6ª que é a mais poderosa.
+**Ficha rápida**
+- **Idade:** por volta dos 35 aos 45 anos.
+- **Onde:** Curitiba e região metropolitana.
+- **Negócio:** doceria de festa. Trabalha sozinha com uma ou duas ajudantes, ou já tem uma equipe pequena.
+- **O que vende:** docinho fino e trufa para casamento, 15 anos e corporativo, em volume (algumas centenas de unidades por evento).
+- **Como compra:** por evento e por data comemorativa, em quantidade.
+
+**Resumo:** ela não tem falta de pedido. Tem falta de tempo. Cada hora moldando casca é uma hora que ela não usa vendendo, criando ou descansando.
+
+**A rotina dela:** trabalha por picos. Uma semana mais calma e, na sequência, uma enxurrada de pedidos junto de uma data. Na véspera do evento, o recurso mais escasso é tempo e mão de obra.
+
+**O que ela valoriza (nesta ordem):**
+1. Acabamento impecável. Ela vende "fino", então um produto feio prejudica a marca dela. É o filtro número um.
+2. Ganhar tempo e escala no pico, sem precisar contratar mais gente.
+3. Fornecimento que não falha perto da data.
+4. Preço e margem.
+5. Atendimento humano e rápido no WhatsApp.
+
+**A tensão (a dor principal):** moldar casca de trufa é uma etapa demorada, técnica e sujeita a erro (temperagem, brilho, quebra). É exatamente o que a casca pronta resolve.
+
+**O que ela quer:** entregar mais pedidos, mantendo o padrão, sem virar a noite.
+
+**Frases que ela diz:**
+- "Na semana da festa, eu quase não durmo."
+- "Se a trufa chega feia, quem fica mal na foto sou eu."
+- "Preciso de fornecedor que não me deixe na mão na véspera."
+
+**Como falar com a Carol**
+
+Faça:
+- Fale de tempo e de volume. "Menos horas moldando, mais pedidos entregues."
+- Mostre o produto pronto e bonito, e o resultado que ela consegue.
+- Prove que aguenta o transporte e o calor.
+- Trate como parceira de quem entende a correria dela.
+
+Evite:
+- Questionar o lado "artesanal" do trabalho dela. A casca é a base, a assinatura continua sendo dela.
+- Usar linguagem de indústria (termos técnicos e corporativos).
+- Forçar a venda. O caminho aqui é confiança.
+- Soar distante ou premium demais, como se ela não fizesse parte do clube.
+
+---
+
+### Persona 2 · Renata, 42 · A chef da vitrine premium
+
+*(Pode ser ele ou ela. Um dos perfis de referência, a Délices de Sucre, é do Chef Johnlee.)*
+
+**Ficha rápida**
+- **Idade:** por volta dos 40 aos 50 anos.
+- **Onde:** Curitiba, muitas vezes com loja física em bairro nobre.
+- **Negócio:** pâtisserie ou confeitaria autoral, com marca forte e presença de mídia.
+- **O que vende:** sobremesas finas, bolos, coleções sazonais, doces de vitrine e encomenda.
+- **Como compra:** costuma produzir a própria casca no dia a dia, mas compra pronta nos picos (Páscoa, Natal) por eficiência.
+
+**Resumo:** ela tem orgulho do que faz à mão. Não quer um atalho que baixe o padrão. Quer conveniência nos momentos em que o volume não deixa fazer tudo do zero.
+
+**A rotina dela:** opera loja e encomenda ao mesmo tempo. Nos picos sazonais, o volume estoura e a produção artesanal não dá conta sozinha.
+
+**O que ela valoriza (nesta ordem):**
+1. Qualidade e acabamento acima de tudo. A marca dela é o nome dela.
+2. Conveniência no pico, sem abrir mão do padrão.
+3. Estética e apresentação.
+4. Constância de fornecimento.
+
+**A tensão (a dor principal):** no auge da temporada, o volume não cabe na produção artesanal. Ela precisa de ajuda pontual sem parecer que "terceirizou" a qualidade.
+
+**O que ela quer:** manter o padrão premium mesmo dobrando o volume nas datas.
+
+**Frases que ela diz:**
+- "Eu vendo o meu nome, não posso errar."
+- "Na Páscoa, o gargalo é a produção."
+
+**Como falar com a Renata**
+
+Faça:
+- Fale de qualidade, acabamento e conveniência no pico.
+- Respeite o trabalho artesanal dela. Posicione a casca como base premium que economiza etapa, não como substituto do talento dela.
+- Mostre o resultado final impecável.
+
+Evite:
+- Vender como "industrial barato". Ela recusa na hora.
+- Diminuir o trabalho dela.
+- Falar só de preço.
+
+> Na prática: a maior parte do conteúdo conversa mais com a Carol, porque é ela quem compra em volume e com recorrência. A Renata entra com força nas campanhas de data comemorativa.
+
+---
+
+## 3. Mapa de dores
+
+O MPS listou cinco dores. A pesquisa mostrou quais são mais fortes e revelou uma sexta, que talvez seja a mais poderosa.
 
 | Dor | Força | Como usar na comunicação |
 |---|---|---|
-| **Ganho de tempo** (casca pronta = só rechear e vender) | ⭐⭐⭐⭐⭐ *(a mais forte, e não estava na lista)* | Argumento-carro-chefe. "Pare de moldar casca por casca." |
-| **Resistente ao calor** | ⭐⭐⭐⭐⭐ | Alívio de ansiedade: medo de entregar derretido e queimar a reputação. Conteúdo de teste no calor. |
-| **Mais acessível** | ⭐⭐⭐⭐⭐ | Margem: "cabe no seu custo e você lucra mais". Timing perfeito (cacau/dólar caros). |
-| **Produto nacional** | ⭐⭐⭐⭐ | É o **guarda-chuva/porquê**: nacional = acessível + fornecimento estável. Não é benefício isolado. |
-| **Pronta entrega** | ⭐⭐⭐⭐ | Dor **sazonal**: ativar forte antes dos picos (Páscoa, Mães, Namorados, Natal). "Garanta com antecedência." |
-| **Variedade de sabores** | ⭐⭐⭐ | Fraca como dor, **forte como gancho de trend** (pistache, matcha, edição limitada). Usar pra surfar alcance. |
+| **Ganho de tempo** (casca pronta, só rechear) | Muito alta *(não estava na lista e é a mais forte)* | Argumento principal. "Chega de moldar casca por casca." |
+| **Resistente ao calor** | Muito alta | Alívio de uma preocupação real: o medo de entregar derretido. Conteúdo de teste no calor funciona muito bem. |
+| **Mais acessível** | Muito alta | Foco em margem: "cabe no seu custo e você lucra mais". O momento é favorável (importado caro). |
+| **Produto nacional** | Alta | É o porquê que sustenta o resto: nacional significa mais acessível e com fornecimento mais estável. |
+| **Pronta entrega** | Alta | Dor sazonal. Ative com força antes dos picos (Páscoa, Mães, Namorados, Natal). |
+| **Variedade de sabores** | Média | Fraca como dor, forte como gancho de tendência (pistache, matcha, edição limitada). |
 
-**Contexto de mercado que reforça o discurso (use como munição):**
-- O preço do **cacau subiu ~189%** no último ciclo; importado ficou caro e instável. **Nacional e acessível está no auge da relevância.**
-- **Datas comemorativas = até 40% do faturamento** de uma confeiteira. O calendário manda.
-- A maioria já trabalha com **cobertura/fracionado** (que aguenta calor e dispensa temperagem) — ou seja, o produto nacional/resistente **compete no segmento que é maioria**, não num nicho.
-- O jogo do MPS **não é mídia paga de grande alcance**: é **confiança + prova** (amostra, WhatsApp responsivo, depoimento de confeiteira, boca a boca nos grupos).
-
----
-
-## 4. Linha editorial — os 5 pilares de conteúdo
-
-Todo post cai em um destes 5 pilares. Isso evita "postar por postar" e garante equilíbrio entre **construir autoridade** e **gerar pedido**.
-
-### Pilar 1 — 🍫 Mão na massa (aplicação do produto) — *o maior*
-A casca ganhando vida: recheios, finalização, variações. **Ensinar a aplicação É vender o produto** (roubado da Dobla). ~35% dos posts.
-> Objetivo: mostrar o resultado bonito e dar ideia pronta pra ela usar. Gera salvamento.
-
-### Pilar 2 — ✅ Prova e confiança (conversão)
-Depoimento, repost da confeiteira ("feito com MPS"), antes/depois no calor, "mesma qualidade todo lote". ~20%.
-> Objetivo: quebrar objeção e puxar amostra/pedido. É o pilar que mais converte.
-
-### Pilar 3 — 📅 Calendário e datas (sazonal)
-Páscoa, Dia das Mães, Namorados, Festa Junina, Natal, casamento. Antecipar o pico e ativar a pronta entrega. ~20%.
-> Objetivo: pedido recorrente puxado por data. "Garanta sua casca antes do aperto."
-
-### Pilar 4 — 👋 Bastidor e rosto (humanização)
-Quem é o MPS, a fábrica, o "feito aqui", a pessoa que atende no zap. ~15% (roubado da TopCau, mas mais pessoal).
-> Objetivo: gerar confiança e proximidade que marca grande não tem.
-
-### Pilar 5 — 💰 Ganha-dinheiro e gestão (autoridade útil)
-Rendimento, margem, precificação, "quanto você lucra com a caixa". ~10%.
-> Objetivo: virar referência que **ajuda a confeiteira a lucrar**, não só vende. Gera compartilhamento nos grupos.
-
-**Mix semanal simples (3 a 4 posts/semana):**
-- 1 de Mão na massa 🍫
-- 1 de Prova ✅ *ou* Bastidor 👋
-- 1 de Calendário 📅 *ou* Ganha-dinheiro 💰
-- Stories quase todo dia (bastidor, enquete, "chegou lote novo", resposta de dúvida).
+**Contexto de mercado que reforça o discurso:**
+- O preço do cacau subiu de forma expressiva e o chocolate importado ficou mais caro e instável. O produto nacional e acessível está num momento de alta relevância.
+- Datas comemorativas podem representar até 40% do faturamento anual de uma confeiteira. O calendário conduz as vendas.
+- A maioria das confeiteiras já trabalha com cobertura ou chocolate fracionado, que dispensa temperagem e aguenta melhor o calor. Isso significa que o MPS compete no segmento que é maioria.
+- Para um fornecedor pequeno, o jogo não é mídia paga de grande alcance. É confiança e prova (WhatsApp responsivo, depoimento de clientes e boca a boca nos grupos de confeiteiras).
 
 ---
 
-## 5. Bio do Instagram
+## 4. Linha editorial · os 5 pilares
 
-A bio tem que responder em 3 segundos: **o que é, pra quem, e o que fazer agora.** Estrutura: o que é + benefício + prova + CTA com a setinha pro link.
+Todo post cai em um destes cinco pilares. Isso garante equilíbrio entre construir autoridade e gerar pedido. Cada pilar já traz uma sugestão do tipo de imagem que combina com ele.
 
-**Opção A (recomendada — benefício + ação):**
+**Pilar 1 · Mão na massa (o maior, cerca de 35%)**
+A casca ganhando vida: recheios, finalização, variações. Ensinar a aplicação já é vender o produto.
+Imagem sugerida: a casca sendo recheada, a trufa pronta e bonita, um close do brilho.
+
+**Pilar 2 · Prova e confiança (cerca de 20%)**
+Depoimento, repost de cliente, antes e depois no calor, consistência de qualidade.
+Imagem sugerida: print de elogio, foto da trufa da cliente, teste do produto no calor.
+
+**Pilar 3 · Calendário e datas (cerca de 20%)**
+Páscoa, Dia das Mães, Namorados, festas juninas, Natal, casamento. Antecipa o pico.
+Imagem sugerida: a trufa no clima da data, contagem regressiva, mesa de festa.
+
+**Pilar 4 · Bastidor e rosto (cerca de 15%)**
+Quem é o MPS, a fábrica, o "feito aqui", a pessoa que atende.
+Imagem sugerida: produção, a fábrica, a pessoa da equipe, o processo.
+
+**Pilar 5 · Ganha-dinheiro e gestão (cerca de 10%)**
+Rendimento, margem, precificação, "quanto você lucra com a caixa".
+Imagem sugerida: a caixa do produto, um cálculo simples e visual, comparativo.
+
+**Mix semanal (3 a 4 posts):** 1 de Mão na massa, 1 de Prova ou Bastidor, 1 de Calendário ou Ganha-dinheiro, e Stories quase todo dia.
+
+---
+
+## 5. Como fica um post na prática (a parte mais importante)
+
+Produzir o post é onde mora a maior dificuldade. Por isso, esta seção mostra a estrutura e traz exemplos prontos de imagem mais legenda. Você pode reproduzir esse padrão sozinho ou pedir para o Claude montar seguindo o modelo.
+
+**A anatomia de um bom post:**
+1. **Uma imagem que para o dedo.** Produto bonito, luz natural, fundo limpo. É ela que faz a pessoa parar de rolar.
+2. **A primeira linha que fisga.** É o gancho, aparece antes do "... mais". Não desperdice com "oi, gente".
+3. **Um corpo curto**, com uma ideia por linha e espaço entre os blocos.
+4. **Um único CTA** (o que fazer agora).
+5. **Hashtags** no fim ou no primeiro comentário.
+
+### Exemplo 1 · "Só rechear e vender" (Reels ou foto)
+**Imagem:** as cascas prontas ao lado de uma tigela de ganache e um saco de confeitar, na luz da janela. *(ver arquivo `assets/sim1.jpg`)*
+**Legenda:**
 ```
-Chocolate nacional feito aqui 🍫
-Cascas de trufa prontas pra rechear
-Você recheia, fecha e vende ✨
-📦 Pronta entrega • amostra no WhatsApp 👇
+Enquanto umas moldam casca por casca, você já está vendendo.
+
+A casca já vem pronta, lisa e brilhante.
+Você faz o recheio da sua receita, fecha e entrega.
+Menos tempo na bancada, mais pedidos no mês.
+
+Chama no WhatsApp e peça a tabela.
+
+#confeitaria #trufas #chocolatenacional #docesparafesta
+```
+CTA: peça a tabela no WhatsApp.
+
+### Exemplo 2 · "5 recheios para a sua trufa" (Carrossel)
+**Imagem:** trufas cortadas ao meio mostrando recheios variados. *(ver arquivo `assets/sim2.jpg`)*
+**Legenda:**
+```
+5 recheios para vender mais com a mesma casca.
+
+1. Ganache
+2. Brigadeiro gourmet
+3. Doce de leite
+4. Ninho
+5. Maracujá
+
+A base é a nossa. O sabor e a assinatura são seus.
+
+Salva esse post e me conta qual você vai testar.
+
+#confeitaria #confeiteira #trufaoca #docinhosdefesta
+```
+CTA: salvar o post.
+
+### Exemplo 3 · "Mesa de festa sem virar a noite" (foto)
+**Imagem:** mesa de doces montada, com trufas em destaque. *(ver arquivo `assets/p1.jpg`)*
+**Legenda:**
+```
+Uma mesa dessas não precisa custar a sua madrugada.
+
+Com a casca pronta, você monta o volume de uma festa inteira em muito menos tempo.
+O acabamento fica uniforme, do primeiro ao último docinho.
+
+Vai ter festa grande no mês? Chama no WhatsApp e monte seu pedido.
+
+#docesparafesta #casamento #confeitariacuritiba #mesadedoces
+```
+CTA: montar o pedido no WhatsApp.
+
+> Repare no padrão dos três: uma imagem forte, uma primeira linha que fisga, um corpo curto com respiro e um único CTA. É esse molde que se repete em todos os posts.
+
+---
+
+## 6. Bio do Instagram
+
+A bio precisa responder em poucos segundos: o que é, para quem e o que fazer agora.
+
+**Opção A (recomendada):**
+```
+Chocolate nacional feito aqui
+Cascas de trufa prontas para rechear
+Você recheia, fecha e vende
+Pronta entrega e pedidos no WhatsApp
 ```
 
 **Opção B (foco na dor):**
 ```
 Casca de trufa com acabamento de confeitaria fina
-Chocolate nacional • aguenta o calor ☀️
+Chocolate nacional que aguenta o calor
 Menos tempo moldando, mais tempo vendendo
-Peça sua amostra 👇
+Peça a tabela no WhatsApp
 ```
 
 **Opção C (curta e direta):**
 ```
-Fábrica de chocolate nacional 🍫
-Trufas ocas prontas pra rechear • pronta entrega
-Amostras e pedidos no WhatsApp 👇
+Fábrica de chocolate nacional
+Trufas ocas prontas para rechear
+Pronta entrega. Pedidos e tabela no WhatsApp
 ```
 
-**Nome do perfil (campo "Nome", que conta na busca):** `MPS Alimentos • Cascas de Trufa` (aparece na pesquisa por "casca de trufa", "trufa oca").
+**Campo "Nome" (conta na busca):** `MPS Alimentos • Cascas de Trufa`
 
-**Destaques (Stories fixados) sugeridos:**
-`Amostras` · `Recheios` · `Aguenta o calor` · `Como comprar` · `Clientes` · `A fábrica`
+**Destaques fixados:** Recheios · Aguenta o calor · Como comprar · Clientes · A fábrica
 
-**Link:** de preferência um link de WhatsApp direto (ou o site com botão de WhatsApp). O zap é o balcão.
-
----
-
-## 6. Manual de como postar
-
-### 6.1 Linguagem (o tom do MPS)
-- **Fale de igual pra igual com a confeiteira.** Você é o parceiro que senta do lado dela, não a indústria no púlpito.
-- **Simples e direto.** Nada de "excelência regulatória", "supply chain", "verticalmente integrado". Ela não fala essa língua.
-- **Fale do resultado dela**, não da sua gramatura: "você ganha tempo", "você lucra mais", "sua entrega chega firme".
-- **Acolhedor e profissional**, nunca agressivo ou "hard-sell". Sem forçar. Sem travessão nos textos.
-- **Palavras SIM:** pronta, prática, rende, aguenta, acabamento, brilho, no aperto, sem quebrar, cabe na margem, feito aqui.
-- **Palavras NÃO:** premium demais/distante, jargão de indústria, promessa exagerada.
-
-### 6.2 Estrutura de legenda
-```
-[LINHA 1 = GANCHO]  ← a frase que aparece antes do "...mais". Tem que fisgar.
-(linha em branco)
-[CORPO]  ← 2 a 4 blocos curtos, um por linha. Uma ideia por linha.
-(linha em branco)
-[CTA]  ← o que ela deve fazer agora (um só).
-(linha em branco)
-[HASHTAGS]  ← no fim ou no 1º comentário.
-```
-
-### 6.3 Espaçamento e formatação (o que faz ler bem no celular)
-- **Primeira linha é tudo.** É o gancho que decide se ela para de rolar. Não desperdice com "Bom dia, pessoal!".
-- **Uma ideia por linha**, com linha em branco entre blocos. Texto "em bloco" ninguém lê no celular.
-- **Emoji com parcimônia**, como marcador visual (início de linha), não confete no meio da frase.
-- **Legenda curta vende mais** no dia a dia; carrossel/educativo pode ser mais longo.
-- **CTA sempre um só.** Dois pedidos = nenhum feito.
-
-### 6.4 Biblioteca de CTAs (escolha 1 por post, conforme o objetivo)
-- **Pra gerar amostra/lead:** "Comenta AMOSTRA que eu te chamo no WhatsApp." / "Chama no zap 👆 que te mando uma amostra."
-- **Pra salvar (alcance):** "Salva esse post pra usar na próxima encomenda."
-- **Pra comentar (alcance):** "Qual recheio você faria? Conta aqui 👇"
-- **Pra compartilhar:** "Marca aquela confeiteira que vive sem tempo."
-- **Pra seguir (autoridade):** "Segue a gente pra não perder as ideias de recheio da semana."
-- **Pra pedido (data):** "Garanta sua casca antes do aperto da Páscoa. Chama no WhatsApp."
-
-### 6.5 Formatos que funcionam (e dá pra fazer no celular)
-- **Reels curto (15 a 30s):** o que mais entrega alcance. Casca → recheio → fecha → vende. Bastidor. Antes/depois no calor.
-- **Carrossel (3 a 6 fotos):** "5 recheios pra trufa oca", passo a passo, comparativo. Gera salvamento.
-- **Foto única bem tirada:** produto herói (luz de janela + fundo limpo). Simples e bonito.
-- **Stories:** o motor diário. Enquete ("qual recheio?"), "chegou lote novo", resposta de dúvida, bastidor cru.
-- **Não precisa de estúdio.** Luz natural (perto da janela), fundo limpo, celular na horizontal pro Reels. Capricho > equipamento.
-
-### 6.6 Ritmo e horários
-> **Ponto de partida (hoje):** o @mps.alimentos está começando praticamente do zero (6 posts, 9 seguidores). Isso é normal e não é problema. Os primeiros 60 a 90 dias são pra **encher o feed de mão na massa e prova** e ativar o boca a boca com amostra. Não persiga viral; persiga o primeiro "feito com MPS" de uma confeiteira real.
-
-- **3 a 4 posts no feed por semana** + Stories quase todo dia. Constância vale mais que volume.
-- **Melhores horários** pra confeiteira (ela mexe no celular nas brechas): manhã cedo (7h-9h), início da tarde (12h-14h) e à noite (19h-21h). Teste e veja o que responde.
-
-### 6.7 Hashtags
-Misture **nicho + local + produto** (5 a 12, não mais):
-`#confeitaria #confeiteira #trufas #docesparafesta #chocolatenacional #trufaoca #confeitariabrasil #docinhosdefesta #curitiba #confeitariacuritiba #docescuritiba #pascoa` (troque as de data conforme a época).
+**Link:** de preferência um WhatsApp direto. O WhatsApp é o balcão de venda.
 
 ---
 
-## 7. Sugestões de posts (prontas pra produzir)
+## 7. Manual de postagem
 
-Cada uma traz **formato + gancho + legenda + CTA**. Todas dá pra fazer no celular.
+### 7.1 Linguagem
+- Fale de igual para igual com a confeiteira. Você é o parceiro que entende a rotina dela.
+- Simples e direto. Evite termos técnicos e corporativos.
+- Fale do resultado dela (tempo, margem, tranquilidade), não da sua especificação.
+- Tom acolhedor e profissional, nunca agressivo.
+- Palavras que combinam: pronta, rende, aguenta, acabamento, brilho, no aperto, cabe na margem, feito aqui.
 
-**1. "Só rechear e vender" (Reels) — Pilar 1**
-Gancho: *"Enquanto você molda casca por casca, ela já tá vendendo."*
-Mostra: pega a casca pronta, recheia, fecha, embala, vende. Ritmo rápido.
-CTA: "Comenta AMOSTRA que te chamo no zap."
+### 7.2 Estrutura da legenda
+- Primeira linha: o gancho.
+- Corpo: dois a quatro blocos curtos, uma ideia por linha, com espaço entre eles.
+- CTA: um só.
+- Hashtags: no fim ou no primeiro comentário.
 
-**2. Teste do calor (Reels/foto) — Pilar 2**
-Gancho: *"Deixei a trufa no carro fechado. Olha o que aconteceu."*
-Mostra: casca no calor, continua firme e com brilho.
-CTA: "Salva pra sua próxima entrega de verão."
+### 7.3 Espaçamento (o que faz ler bem no celular)
+- A primeira linha decide tudo. É o gancho.
+- Uma ideia por linha, com linha em branco entre os blocos. Texto em bloco cansa.
+- Emoji com moderação, como marcador no início da linha.
+- Legenda curta vende no dia a dia. Carrossel educativo pode ser mais longo.
+- Um único CTA por post.
 
-**3. "5 recheios pra sua trufa oca" (Carrossel) — Pilar 1**
-Ganache, brigadeiro gourmet, doce de leite, ninho, maracujá. Uma foto por recheio.
-CTA: "Salva esse post e me conta qual você vai testar 👇"
+### 7.4 Biblioteca de CTAs (um por post)
+| Objetivo | CTA |
+|---|---|
+| Gerar pedido | "Chama no WhatsApp e peça a tabela." |
+| Gerar contato | "Comenta EU QUERO que eu te chamo no WhatsApp." |
+| Salvar (alcance) | "Salva esse post para usar na próxima encomenda." |
+| Comentar (alcance) | "Qual recheio você faria? Conta aqui." |
+| Compartilhar | "Marca aquela confeiteira que vive sem tempo." |
+| Seguir (autoridade) | "Segue para não perder as ideias de recheio da semana." |
+| Pedido por data | "Garanta sua casca antes do aperto da Páscoa. Chama no WhatsApp." |
 
-**4. Quanto você lucra (Carrossel/foto) — Pilar 5**
-Gancho: *"A conta que toda confeiteira devia fazer antes da festa."*
-Mostra: caixa com 126, custo por unidade, preço de venda sugerido, lucro.
-CTA: "Salva pra usar no seu próximo orçamento."
+### 7.5 Formatos que funcionam (dá para fazer no celular)
+- Reels de 15 a 30 segundos: o que mais gera alcance. Casca, recheio, fecha, vende. Bastidor. Antes e depois no calor.
+- Carrossel de 3 a 6 fotos: "5 recheios", passo a passo, comparativo. Gera salvamento.
+- Foto única bem tirada: produto em destaque, com luz de janela e fundo limpo.
+- Stories: o motor diário. Enquete, "chegou lote novo", dúvida respondida, bastidor.
+- Não precisa de estúdio. Luz natural e fundo limpo já resolvem. Capricho vale mais que equipamento.
 
-**5. Feito com MPS (repost/depoimento) — Pilar 2**
-Reposta a trufa que uma cliente fez com a casca do MPS + print do elogio.
-CTA: "Fez com a nossa casca? Marca a gente que a gente reposta ❤️"
-
-**6. Conheça quem faz (Reels bastidor) — Pilar 4**
-Gancho: *"O chocolate que chega na sua confeitaria é feito bem aqui."*
-Mostra: fábrica, produção, a pessoa que atende. Rosto e voz.
-CTA: "Segue pra acompanhar os bastidores."
-
-**7. Contagem regressiva da data (foto/Reels) — Pilar 3**
-Gancho: *"Faltam 3 semanas pra Páscoa. Sua casca já tá garantida?"*
-CTA: "Garanta com antecedência. Chama no WhatsApp 👆"
-
-**8. Trend do momento (Reels) — Pilar 1 + variedade**
-Gancho: *"Trufa de pistache com chocolate nacional que aguenta o calor. Bora?"*
-Surfa a trend do sabor da vez.
-CTA: "Salva a ideia pra sua próxima linha."
-
-**9. Mito x verdade (Carrossel) — Pilar 2**
-Gancho: *"'Casca pronta é menos artesanal?' Vem que a gente conversa."*
-Verdade: a casca é a base; o recheio, o sabor e a assinatura continuam 100% seus.
-CTA: "Concorda? Comenta aqui 👇"
-
-**10. Moldar x pronta (Reels comparativo) — Pilar 1**
-Lado a lado: o tempo (e o erro) de temperar e moldar vs. abrir a caixa e rechear.
-CTA: "Quer testar o atalho? Comenta AMOSTRA."
-
-**11. Nacional que cabe na margem (foto/carrossel) — Pilar 5 + guarda-chuva**
-Gancho: *"Com o importado nas alturas, dá pra manter o padrão sem estourar o custo."*
-CTA: "Chama no zap e faz as contas com a gente."
-
-**12. Kit de festa (foto) — Pilar 3 + Persona 1**
-Gancho: *"Mesa de 500 docinhos sem passar a madrugada moldando casca."*
-CTA: "Monta seu pedido de festa no WhatsApp 👆"
+### 7.6 Ritmo, horários e hashtags
+- Ponto de partida: o perfil está começando quase do zero. Isso é normal. Os primeiros 60 a 90 dias servem para encher o feed de mão na massa e prova, e ativar o boca a boca com clientes reais.
+- Publique de 3 a 4 vezes por semana no feed, com Stories quase todo dia. Constância vale mais que volume.
+- Melhores horários para a confeiteira: manhã cedo, início da tarde e à noite. Teste e observe o que responde.
+- Hashtags (de 5 a 12, misturando nicho, local e produto): `#confeitaria #confeiteira #trufas #docesparafesta #chocolatenacional #trufaoca #confeitariacuritiba #docescuritiba #pascoa`
 
 ---
 
-## 8. Calendário sugerido (exemplo de 1 semana)
+## 8. Banco de ideias de post
 
-| Dia | Post | Pilar | CTA |
-|---|---|---|---|
-| Seg | "Só rechear e vender" (Reels) | 🍫 Mão na massa | Amostra |
-| Qua | "5 recheios" (Carrossel) | 🍫 Mão na massa | Salvar |
-| Sex | Feito com MPS (repost) *ou* Bastidor | ✅ Prova / 👋 Rosto | Marcar/Seguir |
-| (mês) | 1 post de data comemorativa quando ela se aproxima | 📅 Calendário | WhatsApp |
+Cada ideia traz o formato, o pilar, a imagem sugerida e o CTA.
 
-Stories: todo dia algo leve (enquete de recheio, lote novo, dúvida respondida, bastidor).
-
----
-
-## 9. Erros a evitar
-
-- ❌ Copiar o tom frio e corporativo das grandes (Barry Callebaut é anti-referência de tom).
-- ❌ Soar premium-distante (a Carol que faz 300 docinhos pra vender no bairro precisa se sentir incluída, não excluída).
-- ❌ Jargão de indústria ("terceirização", "supply chain", ESG). Não é a língua dela.
-- ❌ Feed só de catálogo/preço sem rosto. Pequeno ganha com pessoa, mão na massa e prova.
-- ❌ Dois CTAs no mesmo post. Um pedido por vez.
-- ❌ Promessa exagerada ou hard-sell. O jogo aqui é confiança e prova.
-- ❌ Sumir. Constância (3-4/semana) vale mais que um mês bom seguido de silêncio.
-
----
-
-## 10. Checklist rápido antes de postar
-
-- [ ] A **primeira linha** fisga (não é "oi pessoal")?
-- [ ] Fala do **resultado dela** (tempo, margem, tranquilidade), não da minha gramatura?
-- [ ] Tem **um** CTA claro?
-- [ ] O texto tem **respiro** (uma ideia por linha)?
-- [ ] Cai em **um dos 5 pilares**?
-- [ ] O tom é de **parceiro acessível** (sem jargão, sem travessão, sem hard-sell)?
-- [ ] Se for de venda, o caminho pro **WhatsApp** está fácil?
+1. **Só rechear e vender** (Reels, Pilar 1). Imagem: casca sendo recheada. CTA: peça a tabela no WhatsApp.
+2. **Teste do calor** (Reels ou foto, Pilar 2). Imagem: a trufa exposta ao calor, ainda firme. CTA: salvar.
+3. **5 recheios para a trufa** (Carrossel, Pilar 1). Imagem: trufas com recheios variados. CTA: salvar.
+4. **Quanto você lucra** (Carrossel, Pilar 5). Imagem: a caixa e um cálculo simples. CTA: salvar.
+5. **Feito com MPS** (Repost, Pilar 2). Imagem: a trufa da cliente mais o elogio. CTA: marcar a gente.
+6. **Conheça quem faz** (Reels bastidor, Pilar 4). Imagem: a fábrica e a produção. CTA: seguir.
+7. **Contagem regressiva da data** (Foto ou Reels, Pilar 3). Imagem: trufa no clima da data. CTA: pedir com antecedência.
+8. **Trend do momento** (Reels, Pilar 1). Imagem: o sabor da vez (ex.: pistache). CTA: salvar.
+9. **Mito e verdade** (Carrossel, Pilar 2). Imagem: casca mais texto. CTA: comentar.
+10. **Moldar x pronta** (Reels comparativo, Pilar 1). Imagem: os dois processos lado a lado. CTA: comentar.
+11. **Nacional que cabe na margem** (Foto ou carrossel, Pilar 5). Imagem: a caixa e o produto. CTA: pedir a tabela.
+12. **Kit de festa** (Foto, Pilar 3). Imagem: mesa de doces. CTA: montar pedido no WhatsApp.
 
 ---
 
 ### Resumo em uma frase
-> O MPS não vende casca de chocolate. Vende **tempo, margem e tranquilidade** pra confeiteira vender mais. Mostre o produto virando trufa, prove que aguenta e que rende, fale como parceiro, e leve tudo pro WhatsApp.
+> O MPS não vende casca de chocolate. Vende tempo, margem e tranquilidade para a confeiteira vender mais. Mostre o produto virando trufa, prove que aguenta e que rende, fale como parceiro e leve tudo para o WhatsApp.
 
-*Método: pesquisa de mercado (confeitaria BR, choque do cacau ~189%, sazonalidade) + análise dos sites das marcas de referência (Dobla, Barry Callebaut, TopCau) + **leitura direta dos 6 perfis de Instagram** dos clientes e do @mps.alimentos (bio, destaques, porte e posicionamento reais, em Ago/2026). Não foi feita auditoria post a post de cada feed; se quiser, dá pra aprofundar a estética de um ou dois perfis específicos.*
+*Método: pesquisa de mercado (confeitaria no Brasil, alta do cacau, sazonalidade), análise dos sites das marcas de referência (Dobla, Barry Callebaut, TopCau) e leitura direta dos 6 perfis de Instagram dos clientes e do MPS, em agosto de 2026.*
