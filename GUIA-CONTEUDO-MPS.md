@@ -5,14 +5,31 @@ Este guia é a base de comunicação das redes do MPS Alimentos. Reúne o posici
 
 ---
 
-## 1. A grande ideia (posicionamento)
+## 1. O conceito
 
-As grandes marcas de chocolate para confeitaria (como Dobla e Callebaut) já vendem a casca de trufa pronta. São importadas, caras e distantes da rotina de quem produz. O MPS não está inventando uma categoria, e não precisa fingir que sim.
+Antes das táticas (personas, posts, bio), a ideia que guia tudo. É simples, e é o que vai diferenciar o MPS de qualquer concorrente.
 
-O que o MPS oferece é outra coisa: ser o **parceiro nacional de confiança** da confeitaria. A mesma casca, com o mesmo resultado final, feita aqui, com fornecimento estável, preço competitivo por ser nacional e alguém que entende a produção e não deixa o cliente na mão.
+**O MPS não precisa ser o mais barato. Precisa ser o mais confiável.**
+
+O raciocínio em três passos:
+
+1. **O cenário.** Casca de trufa pronta já existe. As grandes (Dobla, Callebaut) vendem, mas são importadas, caras e distantes de quem produz no dia a dia.
+2. **A armadilha.** Se o MPS entrar só como "o mais barato e nacional", vira mais um na fila, comparado só por preço. Nessa briga, quem cobra menos ganha, a margem some e a marca não se constrói.
+3. **A virada.** O que a confeiteira mais teme é o fornecedor falhar na véspera de uma data, ou a casca vir diferente e estragar a entrega dela. Quem resolve esse medo vira parceiro, não um fornecedor trocável.
+
+**De → Para:**
+- **De:** "sou mais barato e nacional, igual aos outros" (vira commodity, briga de preço).
+- **Para:** "sou o parceiro nacional de confiança: mesmo resultado, no prazo, sem te deixar na mão" (vira marca, relação e recompra).
 
 > **O MPS não vende só chocolate mais barato. Vende confiança.**
 > Um fornecedor nacional que entrega o mesmo resultado do importado, chega no prazo, mantém o padrão lote a lote e segura o volume no pico. O preço competitivo é consequência de ser feito aqui, não a única razão para comprar.
+
+**O conceito se apoia em três coisas:**
+- 🤝 **Confiança:** chega no prazo e não te deixa na mão na véspera. É a bandeira.
+- ✨ **Qualidade:** mesmo resultado do importado, igual todo lote.
+- 🏭 **Nacional:** feito aqui, fornecimento estável. Preço competitivo por consequência.
+
+**Na prática:** cada post, cada resposta no WhatsApp e cada bastidor reforçam uma única mensagem, "nesse fornecedor eu confio". É isso que faz a confeiteira comprar de novo e indicar para outras.
 
 **A bandeira que guia a comunicação:**
 > "O parceiro nacional de confiança da sua produção. A mesma casca das grandes, feita aqui."
