@@ -64,7 +64,14 @@ Chocolate de verdade, luz natural quente, produto em destaque. Aconchegante e ap
 
 **Evite:** luz fria de estúdio e fundo branco clínico · excesso de props · filtros saturados ou artificiais · foto de banco genérica e corporativa.
 
-*(As imagens de referência estão na versão em página do estudo.)*
+### Pessoas e modelos
+
+Quando aparecer uma confeiteira na imagem:
+
+- **Faça:** mulheres de pele branca, parda ou negra (diversidade) · cabelo preso com lenço ou faixa · roupa branca (jaleco, camiseta ou avental) · unhas curtas e sem esmalte.
+- **Evite:** chapéu de chef (toque) · esmalte nas unhas · roupa colorida ou fora do branco · cabelo solto sem lenço ou faixa.
+
+*(As imagens de referência de produto e de modelo estão na versão em página do estudo.)*
 
 ---
 
@@ -108,6 +115,8 @@ VOZ: parceira acessível, de igual para igual, acolhedora e profissional. Nunca 
 LEGENDA (Instagram): 1ª linha = gancho que fisga; corpo curto, uma ideia por linha, com respiro; 1 único CTA; hashtags no fim. SEM negrito, itálico ou cor (o Instagram não tem). Emoji com moderação. CTAs: "Chama no WhatsApp e peça a tabela", "Comenta EU QUERO", "Salva esse post". NUNCA falar em amostra.
 
 VISUAL (ao descrever ou gerar imagem): chocolate real, luz natural quente, produto em destaque, fundo creme, madeira ou mármore claro. Nada de estúdio frio ou corporativo. Cores: creme #f6efe4, chocolate #4a2f1c, dourado #a9772f. Fontes: Petrona (títulos) + Hanken Grotesk (texto).
+
+PESSOAS (se aparecer confeiteira na imagem): mulheres de pele branca, parda ou negra; cabelo preso com lenço ou faixa (NUNCA chapéu de chef); roupa branca (jaleco, camiseta ou avental); unhas curtas sem esmalte.
 
 AO CRIAR UM POST, devolva sempre: 1) a ideia da imagem; 2) a legenda pronta; 3) as hashtags.
 ```
