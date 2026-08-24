@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estudo de Marca · MPS Alimentos</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<meta name="robots" content="noindex">
+<meta name="description" content="Estudo de marca do MPS Alimentos: logo, cores, tipografia, referências visuais, grafismos, voz e legenda, e contexto pronto para produzir com o Claude.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Petrona:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#f6efe4;--cream-2:#efe6d6;--paper:#fdfaf4;--ink:#2c2016;--muted:#6f5e49;
+    --gold:#a9772f;--gold-deep:#8a5e1f;--gold-2:#c69a54;--choc:#4a2f1c;--choc-deep:#3a2415;--line:#e4d8c3;
+    --do:#2f7d5b;--do-bg:#e6f2ea;--do-line:#bfe0cd;
+    --dont:#b8623f;--dont-bg:#f7e7df;--dont-line:#eec7b6;
+    --t-cream:#f6efe4;--t-green:#e9f1ea;--t-butter:#f8eed6;--t-rose:#f6e7df;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--cream);color:var(--ink);font-family:'Hanken Grotesk',system-ui,sans-serif;line-height:1.62;-webkit-font-smoothing:antialiased}
+  .serif{font-family:'Petrona',Georgia,serif}
+  .wrap{max-width:940px;margin:0 auto;padding:0 24px}
+  em{font-style:italic;color:var(--choc)}
+
+  .cover{background:var(--choc);color:var(--cream);position:relative;overflow:hidden}
+  .cover .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.26}
+  .cover .veil{position:absolute;inset:0;background:linear-gradient(90deg,rgba(58,36,21,.92),rgba(58,36,21,.6))}
+  .cover .wrap{position:relative;z-index:2;padding:64px 24px 54px}
+  .brandline{display:inline-flex;align-items:center;gap:12px;font-family:'Petrona',serif;font-weight:600;font-size:1.2rem}
+  .brandline img{height:40px;filter:brightness(0) invert(1);opacity:.95}
+  .brandline span{color:var(--gold-2)}
+  .cover h1{font-family:'Petrona',serif;font-weight:600;font-size:clamp(2.1rem,5.6vw,3.4rem);line-height:1.06;letter-spacing:-.02em;margin:24px 0 14px;color:var(--cream)}
+  .cover .sub{color:#e9dcc6;font-size:1.1rem;max-width:56ch}
+  .cover .kicker{font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-2);font-weight:600}
+
+  nav.toc{background:var(--choc-deep);position:sticky;top:0;z-index:20}
+  nav.toc .wrap{display:flex;gap:6px;overflow-x:auto;padding:10px 24px;scrollbar-width:none}
+  nav.toc .wrap::-webkit-scrollbar{display:none}
+  nav.toc a{white-space:nowrap;color:#d9c8ac;text-decoration:none;font-size:.82rem;font-weight:600;padding:7px 13px;border-radius:20px;transition:.2s}
+  nav.toc a:hover{background:rgba(198,154,84,.18);color:var(--cream)}
+
+  section{padding:48px 0}
+  .t-cream{background:var(--t-cream)}
+  .t-green{background:var(--t-green)}
+  .t-butter{background:var(--t-butter)}
+  .t-rose{background:var(--t-rose)}
+  .num{display:inline-block;font-family:'Petrona',serif;font-weight:600;color:var(--gold-deep);font-size:.95rem;margin-bottom:6px}
+  h2.sec{font-family:'Petrona',serif;font-weight:600;font-size:clamp(1.7rem,4vw,2.5rem);letter-spacing:-.02em;line-height:1.1;margin-bottom:8px}
+  .lead{color:var(--muted);font-size:1.08rem;margin-bottom:22px;max-width:66ch}
+  p{margin:0 0 14px;max-width:70ch}
+  h3{font-family:'Petrona',serif;font-weight:600;font-size:1.25rem;margin:20px 0 8px}
+  strong{font-weight:700}
+  code{background:#fff;border:1px solid var(--line);padding:2px 6px;border-radius:5px;font-size:.9em}
+
+  .note{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:10px;padding:15px 18px;margin:18px 0;font-size:.98rem}
+  .note strong{color:var(--gold-deep)}
+
+  .chips{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 18px}
+  .chip-t{background:#fff;border:1px solid var(--line);border-radius:20px;padding:8px 16px;font-weight:600;font-size:.92rem}
+  .chip-t.no{background:var(--dont-bg);border-color:var(--dont-line);color:var(--dont)}
+  .chip-t.yes{background:var(--do-bg);border-color:var(--do-line);color:var(--do)}
+
+  /* Logo lockups */
+  .lockups{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:12px 0}
+  .lock{border:1px solid var(--line);border-radius:16px;padding:34px;display:grid;place-items:center;min-height:150px}
+  .lock.cream{background:var(--cream)}
+  .lock.choc{background:var(--choc)}
+  .lock .wm{display:inline-flex;align-items:center;gap:12px;font-family:'Petrona',serif;font-weight:600;font-size:1.7rem}
+  .lock.cream .wm{color:var(--ink)} .lock.cream .wm span{color:var(--gold-deep)} .lock.cream .wm img{height:52px}
+  .lock.choc .wm{color:var(--cream)} .lock.choc .wm span{color:var(--gold-2)} .lock.choc .wm img{height:52px;filter:brightness(0) invert(1)}
+
+  /* Swatches */
+  .swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px;margin:12px 0}
+  .sw{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+  .sw .c{height:82px}
+  .sw .m{padding:10px 12px}
+  .sw .m .nm{font-weight:700;font-size:.92rem}
+  .sw .m .hex{font-size:.82rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+  .sw .m .role{font-size:.8rem;color:var(--muted);margin-top:3px}
+
+  /* Type */
+  .type-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px;margin-bottom:14px}
+  .type-card .fam{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-deep);font-weight:700}
+  .spec-serif{font-family:'Petrona',serif;font-weight:600;font-size:clamp(2rem,5vw,3rem);line-height:1.05;letter-spacing:-.02em;margin:8px 0 6px}
+  .spec-sans{font-family:'Hanken Grotesk';font-size:1.15rem;margin:8px 0 6px}
+  .glyphs{font-size:1.05rem;color:var(--muted);letter-spacing:.06em;margin-top:6px}
+  .type-use{font-size:.92rem;color:var(--muted);margin-top:8px}
+
+  /* Photos */
+  .photos{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:12px 0}
+  .photos img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:12px;border:1px solid var(--line)}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:14px 0}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+  .card h4{font-family:'Petrona',serif;font-size:1.05rem;margin-bottom:8px}
+  .card.yes{background:var(--do-bg);border-color:var(--do-line)} .card.yes h4{color:var(--do)}
+  .card.no{background:var(--dont-bg);border-color:var(--dont-line)} .card.no h4{color:var(--dont)}
+  .card ul{margin:0;padding-left:20px} .card li{margin-bottom:5px;font-size:.94rem}
+
+  /* Graphics samples */
+  .gsamples{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:12px 0}
+  .gs{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;text-align:center}
+  .gs .demo{height:90px;display:grid;place-items:center;margin-bottom:10px}
+  .halo{position:relative;width:80px;height:80px;border-radius:50%;background:var(--choc)}
+  .halo:before{content:"";position:absolute;inset:-16px;border-radius:50%;background:radial-gradient(circle,rgba(198,154,84,.4),transparent 70%)}
+  .pill{background:var(--choc);color:var(--cream);border-radius:40px;padding:10px 22px;font-weight:600}
+  .hair{width:70%;height:0;border-top:1px solid var(--gold)}
+  .gs .nm{font-weight:700;font-size:.92rem}
+  .gs .ds{font-size:.82rem;color:var(--muted)}
+
+  /* Voice / caption sample */
+  .voz{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:12px 0}
+  .igpost{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+  .igpost .ihead{display:flex;align-items:center;gap:9px;padding:11px 14px;border-bottom:1px solid #f0e7d6}
+  .igpost .iav{width:30px;height:30px;border-radius:50%;background:var(--choc);color:var(--cream);display:grid;place-items:center;font-size:.7rem;font-weight:700}
+  .igpost .ihandle{font-weight:700;font-size:.86rem}
+  .igpost .iimg{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
+  .igpost .icap{padding:10px 14px 16px;font-size:.92rem;white-space:pre-line}
+  .igpost .icap .h{color:#7a94b8}
+  .bio{background:var(--choc);color:var(--cream);border-radius:14px;padding:18px 20px;white-space:pre-wrap;font-size:1rem;line-height:1.6}
+  .bio .lbl{display:block;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-2);margin-bottom:8px;font-weight:700}
+
+  .prompt{background:var(--choc-deep);color:#f0e6d4;border-radius:14px;padding:20px 22px;font-family:'Hanken Grotesk';font-size:.9rem;line-height:1.6;white-space:pre-wrap;border:1px solid rgba(246,239,228,.15)}
+  .prompt b{color:var(--gold-2)}
+
+  footer{color:var(--muted);font-size:.82rem;padding:26px 0 60px;text-align:center;background:var(--t-cream)}
+
+  @media(max-width:720px){
+    .lockups,.grid2,.voz{grid-template-columns:1fr}
+    .photos,.gsamples{grid-template-columns:1fr 1fr}
+  }
+</style>
+</head>
+<body>
+
+<header class="cover">
+  <img class="bg" src="assets/hero.jpg" alt="">
+  <div class="veil"></div>
+  <div class="wrap">
+    <div class="brandline"><img src="assets/logo.svg" alt="">MPS <span>Alimentos</span></div>
+    <div class="kicker" style="margin-top:22px">Estudo de marca</div>
+    <h1>A identidade do MPS Alimentos</h1>
+    <p class="sub">Logo, cores, tipografia, referências visuais, grafismos e voz. No final, um contexto pronto para colar no Claude e produzir tudo já no jeito da marca.</p>
+  </div>
+</header>
+
+<nav class="toc">
+  <div class="wrap">
+    <a href="#essencia">1· Essência</a>
+    <a href="#logo">2· Logo</a>
+    <a href="#cores">3· Cores</a>
+    <a href="#tipografia">4· Tipografia</a>
+    <a href="#foto">5· Fotografia</a>
+    <a href="#grafismos">6· Grafismos</a>
+    <a href="#voz">7· Voz</a>
+    <a href="#claude">8· Contexto pro Claude</a>
+  </div>
+</nav>
+
+<!-- 1 -->
+<section id="essencia" class="t-cream"><div class="wrap">
+  <span class="num">01</span>
+  <h2 class="sec">Essência da marca</h2>
+  <p class="lead">O MPS é uma fábrica de chocolate nacional que vende cascas de trufa prontas para confeitarias. A marca não é a mais barata, é a mais confiável: o parceiro nacional que entende a produção e não deixa o cliente na mão.</p>
+  <h3>O que a marca é</h3>
+  <div class="chips">
+    <span class="chip-t yes">Confiável</span>
+    <span class="chip-t yes">Parceira</span>
+    <span class="chip-t yes">Calorosa</span>
+    <span class="chip-t yes">Feita aqui</span>
+    <span class="chip-t yes">Profissional</span>
+    <span class="chip-t yes">Prática</span>
+  </div>
+  <h3>O que a marca não é</h3>
+  <div class="chips">
+    <span class="chip-t no">Fria / corporativa</span>
+    <span class="chip-t no">Distante / premium demais</span>
+    <span class="chip-t no">Agressiva / hard-sell</span>
+    <span class="chip-t no">Genérica / commodity</span>
+  </div>
+  <div class="note"><strong>A promessa em uma frase:</strong> "O parceiro nacional de confiança da sua produção. A mesma casca das grandes, feita aqui."</div>
+</div></section>
+
+<!-- 2 -->
+<section id="logo" class="t-green"><div class="wrap">
+  <span class="num">02</span>
+  <h2 class="sec">Logo</h2>
+  <p class="lead">O símbolo (grão de cacau) mais o nome "MPS Alimentos", com "Alimentos" em dourado. Use sempre com bastante ar ao redor.</p>
+  <div class="lockups">
+    <div class="lock cream"><span class="wm"><img src="assets/logo.svg" alt="">MPS <span>Alimentos</span></span></div>
+    <div class="lock choc"><span class="wm"><img src="assets/logo.svg" alt="">MPS <span>Alimentos</span></span></div>
+  </div>
+  <div class="grid2">
+    <div class="card yes"><h4>Faça</h4><ul>
+      <li>Deixe respiro em volta (nunca aperte contra bordas ou texto).</li>
+      <li>Use sobre creme, sobre chocolate ou sobre foto com área escura.</li>
+      <li>Mantenha as proporções entre símbolo e nome.</li>
+    </ul></div>
+    <div class="card no"><h4>Evite</h4><ul>
+      <li>Distorcer, inclinar ou trocar as cores do logo.</li>
+      <li>Colocar sobre fundo poluído sem contraste.</li>
+      <li>Espremer ou apertar o símbolo junto do texto.</li>
+    </ul></div>
+  </div>
+</div></section>
+
+<!-- 3 -->
+<section id="cores" class="t-cream"><div class="wrap">
+  <span class="num">03</span>
+  <h2 class="sec">Cores</h2>
+  <p class="lead">Base creme, chocolate como cor principal e dourado como acento. Quente, artesanal e apetitosa.</p>
+  <div class="swatches">
+    <div class="sw"><div class="c" style="background:#4a2f1c"></div><div class="m"><div class="nm">Chocolate</div><div class="hex">#4a2f1c</div><div class="role">Cor principal, faixas e fundos escuros</div></div></div>
+    <div class="sw"><div class="c" style="background:#f6efe4"></div><div class="m"><div class="nm">Creme</div><div class="hex">#f6efe4</div><div class="role">Fundo base, respiro</div></div></div>
+    <div class="sw"><div class="c" style="background:#a9772f"></div><div class="m"><div class="nm">Dourado</div><div class="hex">#a9772f</div><div class="role">Acento, detalhes, links</div></div></div>
+    <div class="sw"><div class="c" style="background:#c69a54"></div><div class="m"><div class="nm">Dourado claro</div><div class="hex">#c69a54</div><div class="role">Acento sobre chocolate, selos</div></div></div>
+    <div class="sw"><div class="c" style="background:#2c2016"></div><div class="m"><div class="nm">Tinta</div><div class="hex">#2c2016</div><div class="role">Texto principal</div></div></div>
+    <div class="sw"><div class="c" style="background:#6f5e49"></div><div class="m"><div class="nm">Neutro</div><div class="hex">#6f5e49</div><div class="role">Texto de apoio</div></div></div>
+    <div class="sw"><div class="c" style="background:#efe6d6"></div><div class="m"><div class="nm">Creme 2</div><div class="hex">#efe6d6</div><div class="role">Blocos e faixas claras</div></div></div>
+    <div class="sw"><div class="c" style="background:#e0d3bd"></div><div class="m"><div class="nm">Linha</div><div class="hex">#e0d3bd</div><div class="role">Bordas e divisórias</div></div></div>
+  </div>
+  <div class="note"><strong>Regra de contraste:</strong> texto escuro (tinta) sobre creme, ou creme sobre chocolate. O dourado é acento, não use para blocos grandes de texto. O branco puro entra só na moldura de foto de produto.</div>
+</div></section>
+
+<!-- 4 -->
+<section id="tipografia" class="t-green"><div class="wrap">
+  <span class="num">04</span>
+  <h2 class="sec">Tipografia</h2>
+  <p class="lead">Duas fontes gratuitas do Google Fonts. Uma serifada e elegante para títulos, uma sem serifa e limpa para textos.</p>
+  <div class="type-card">
+    <div class="fam">Títulos · Petrona (serifada)</div>
+    <div class="spec-serif">Feito aqui, com quem confia</div>
+    <div class="glyphs">A a B b C c · 0 1 2 3 · Pesos 600 e 700, itálico para destaque</div>
+    <div class="type-use">Use em títulos, frases de destaque e nos números. Dá o ar artesanal e elegante.</div>
+  </div>
+  <div class="type-card">
+    <div class="fam">Textos · Hanken Grotesk (sem serifa)</div>
+    <div class="spec-sans">A casca chega igual todo lote. Você recheia, fecha e entrega. Menos susto na véspera, mais confiança na sua produção.</div>
+    <div class="glyphs">Pesos 400, 500, 600 e 700</div>
+    <div class="type-use">Use em corpo de texto, legendas de material e rótulos. Limpa e fácil de ler no celular.</div>
+  </div>
+  <div class="note"><strong>Google Fonts:</strong> <code>Petrona</code> e <code>Hanken Grotesk</code>. Se precisar de alternativa no Canva/celular: título em <code>Playfair Display</code> ou <code>Fraunces</code>, texto em <code>Poppins</code> ou <code>Inter</code>.</div>
+</div></section>
+
+<!-- 5 -->
+<section id="foto" class="t-cream"><div class="wrap">
+  <span class="num">05</span>
+  <h2 class="sec">Fotografia e referências visuais</h2>
+  <p class="lead">Chocolate de verdade, luz natural quente, produto em destaque. Aconchegante e apetitoso, nunca frio ou de estúdio corporativo.</p>
+  <div class="photos">
+    <img src="assets/sim1.jpg" alt=""><img src="assets/sim2.jpg" alt=""><img src="assets/p1.jpg" alt="">
+    <img src="assets/trufas-ocas.png" alt=""><img src="assets/mov.jpg" alt=""><img src="assets/p2.jpg" alt="">
+  </div>
+  <div class="grid2">
+    <div class="card yes"><h4>Faça</h4><ul>
+      <li>Luz natural quente (perto da janela).</li>
+      <li>Produto em destaque, com brilho e textura.</li>
+      <li>Superfícies de creme, madeira ou mármore claro.</li>
+      <li>Bastidor real: mãos em ação, a produção, o processo.</li>
+    </ul></div>
+    <div class="card no"><h4>Evite</h4><ul>
+      <li>Luz fria de estúdio e fundo branco clínico.</li>
+      <li>Excesso de props competindo com o produto.</li>
+      <li>Filtros saturados ou artificiais.</li>
+      <li>Foto de banco genérica e corporativa.</li>
+    </ul></div>
+  </div>
+</div></section>
+
+<!-- 6 -->
+<section id="grafismos" class="t-butter"><div class="wrap">
+  <span class="num">06</span>
+  <h2 class="sec">Grafismos</h2>
+  <p class="lead">Elementos que se repetem e dão a cara da marca.</p>
+  <div class="gsamples">
+    <div class="gs"><div class="demo"><div class="halo"></div></div><div class="nm">Aura dourada</div><div class="ds">Brilho radial atrás do produto</div></div>
+    <div class="gs"><div class="demo"><div class="pill">Pedir no WhatsApp</div></div><div class="nm">Botão arredondado</div><div class="ds">Cantos bem redondos, chocolate ou dourado</div></div>
+    <div class="gs"><div class="demo"><div class="hair"></div></div><div class="nm">Fio dourado</div><div class="ds">Linha fina para separar seções</div></div>
+  </div>
+  <p>Cantos arredondados (14 a 18px), sombras suaves e quentes, e o símbolo do grão de cacau como selo. Nada de sombras duras ou bordas quadradas frias.</p>
+</div></section>
+
+<!-- 7 -->
+<section id="voz" class="t-cream"><div class="wrap">
+  <span class="num">07</span>
+  <h2 class="sec">Voz e legenda</h2>
+  <p class="lead">Parceira acessível, de igual para igual. Acolhedora e profissional, nunca agressiva. Fala do resultado da confeiteira (confiança, no prazo, mesmo padrão), não da especificação técnica.</p>
+  <div class="grid2">
+    <div class="card yes"><h4>Faça</h4><ul>
+      <li>Frases simples e diretas, de quem entende a rotina dela.</li>
+      <li>1ª linha que fisga, corpo curto com uma ideia por linha, 1 CTA.</li>
+      <li>Emoji com moderação, como carinho.</li>
+      <li>Palavras: de confiança, no prazo, mesmo padrão, feito aqui, aguenta, rende.</li>
+    </ul></div>
+    <div class="card no"><h4>Evite</h4><ul>
+      <li>Jargão de indústria e tom distante.</li>
+      <li>Negrito, itálico ou cor no texto (o Instagram não tem).</li>
+      <li>Vender só por preço ou dizer que é "inovador".</li>
+      <li>Falar em amostra (o MPS não trabalha com amostra).</li>
+    </ul></div>
+  </div>
+  <h3>Exemplo aplicado</h3>
+  <div class="voz">
+    <div class="igpost">
+      <div class="ihead"><span class="iav">MPS</span><span class="ihandle">mps.alimentos</span></div>
+      <img class="iimg" src="assets/sim2.jpg" alt="">
+      <div class="icap"><strong>mps.alimentos</strong> A casca chega igual todo lote. No volume de um evento, é isso que te salva 💛
+
+Mesmo acabamento do primeiro ao último docinho.
+Você foca no recheio, a base é com a gente 🍫
+
+Chama no WhatsApp e peça a tabela 👇
+
+<span class="h">#confeitaria #chocolatenacional #docesparafesta</span></div>
+    </div>
+    <div>
+      <div class="bio"><span class="lbl">Bio recomendada</span>🍫 Chocolate nacional feito aqui
+🤝 O parceiro de confiança da sua produção
+✨ Casca de trufa com o mesmo resultado do importado
+📦 Pronta entrega e pedidos no WhatsApp 👇</div>
+      <div class="note" style="margin-top:14px"><strong>Manual completo de legenda</strong> (personas, dores, pilares, CTAs e mais posts) está no guia de conteúdo. Este estudo é a parte visual da marca.</div>
+    </div>
+  </div>
+</div></section>
+
+<!-- 8 -->
+<section id="claude" class="t-rose"><div class="wrap">
+  <span class="num">08</span>
+  <h2 class="sec">Contexto pronto para o Claude</h2>
+  <p class="lead">Cole este bloco no começo da conversa com o seu Claude. Ele passa a produzir legendas, ideias de post e artes já no jeito da marca.</p>
+  <div class="prompt"><b>Você é o assistente de conteúdo do MPS Alimentos.</b>
+Fábrica de chocolate nacional. Produto: cascas de trufa ocas, prontas para rechear. Público B2B: confeitarias (foco em Curitiba e região).
+
+<b>POSICIONAMENTO:</b> o parceiro nacional de confiança da confeitaria. Não é o mais barato, é o mais confiável (mesmo resultado do importado, feito aqui, chega no prazo, segura o volume no pico). Preço é consequência, nunca a bandeira. NUNCA dizer que é inovador (as grandes, como Callebaut, já vendem casca pronta).
+
+<b>PÚBLICO:</b> (1) confeitaria de eventos que produz em escala, dor: capacidade no pico, constância, fornecimento que não falha; (2) confeiteira menor que molda cobertura na mão, dor: ganho de tempo, cobertura pronta que aguenta o calor.
+
+<b>VOZ:</b> parceira acessível, de igual para igual, acolhedora e profissional. Nunca agressiva nem hard-sell, sem jargão de indústria. Fala do resultado dela (confiança, no prazo, mesmo padrão, margem), não da especificação.
+
+<b>LEGENDA (Instagram):</b> 1ª linha = gancho que fisga; corpo curto, uma ideia por linha, com respiro; 1 único CTA; hashtags no fim. SEM negrito, itálico ou cor (o Instagram não tem). Emoji com moderação. CTAs: "Chama no WhatsApp e peça a tabela", "Comenta EU QUERO", "Salva esse post". NUNCA falar em amostra.
+
+<b>VISUAL (ao descrever ou gerar imagem):</b> chocolate real, luz natural quente, produto em destaque, fundo creme, madeira ou mármore claro. Nada de estúdio frio ou corporativo. Cores: creme #f6efe4, chocolate #4a2f1c, dourado #a9772f. Fontes: Petrona (títulos) + Hanken Grotesk (texto).
+
+<b>AO CRIAR UM POST, devolva sempre:</b> 1) a ideia da imagem; 2) a legenda pronta; 3) as hashtags.</div>
+  <div class="note"><strong>Dica:</strong> para um post específico, é só pedir depois: "cria um post do pilar Prova e confiança sobre a casca chegar igual todo lote". O Claude já responde no tom certo.</div>
+</div></section>
+
+<footer>
+  <div class="wrap">Estudo de marca MPS Alimentos · identidade construída a partir do site e do guia de conteúdo. Fotos de referência: banco de imagens e geração própria (ilustrativas).</div>
+</footer>
+</body>
+</html>
